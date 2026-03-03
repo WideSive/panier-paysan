@@ -1,0 +1,28 @@
+# Fichiers de configuration sensibles
+wp-config.php
+.env
+
+# Dossiers système WordPress
+wp-admin/
+wp-includes/
+
+# Plugins et thèmes téléchargés (tu les réinstalleras via WordPress)
+/wp-content/plugins/*
+!/wp-content/plugins/tes-plugins-maison/
+/wp-content/themes/*
+!/wp-content/plugins/ton-theme-personnalise/
+
+# Fichiers de base WordPress (tu les télécharges séparément)
+index.php
+wp-*.php
+xmlrpc.php
+license.txt
+readme.html
+
+# Logs et caches
+*.log
+wp-content/cache/
+
+# Fichiers volumineux
+wp-content/uploads/*.jpg
+wp-content/uploads/*.png
