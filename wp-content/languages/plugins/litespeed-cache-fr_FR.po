@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-10 08:33:25+0000\n"
+"PO-Revision-Date: 2026-03-05 16:14:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -314,6 +314,10 @@ msgstr "Cliquer ici pour continuer."
 msgid "Reset %s activation successfully."
 msgstr "Réinitialisation de l’activation %s réussie."
 
+#: src/cloud-auth-callback.trait.php:177
+msgid "Failed to validate %s activation data."
+msgstr "Échec de validation des données d'activation %s."
+
 #: src/cloud-auth.trait.php:178 src/cloud-auth.trait.php:224
 #: src/cloud-auth.trait.php:251 src/cloud-auth.trait.php:270
 #: src/cloud-auth.trait.php:291 src/cloud-auth.trait.php:309
@@ -328,6 +332,10 @@ msgstr "Vous avez utilisé tout votre quota restant pour le service en cours ce 
 msgid "Learn more or purchase additional quota."
 msgstr "En savoir plus ou acheter un quota supplémentaire."
 
+#: tpl/page_optm/settings_html.tpl.php:106
+msgid "When minifying HTML do not discard comments that match a specified pattern."
+msgstr "Quand vous minifiez le HTML, ne rejetez pas ldes commentaires qui suivent un motif particulier."
+
 #: tpl/cache/settings-advanced.tpl.php:39
 msgid "Specify an AJAX action in POST/GET and the number of seconds to cache that request, separated by a space."
 msgstr "Spécifiez une action AJAX dans POST/GET et le nombre de secondes pour mettre en cache cette requête, séparés par un espace."
@@ -339,6 +347,10 @@ msgstr "Conserver les commentaires HTML"
 #: src/lang.cls.php:117
 msgid "AJAX Cache TTL"
 msgstr "Cache TTL AJAX"
+
+#: src/error.cls.php:111
+msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
+msgstr "Vous avez des images en attente de traitement. Veuillez attendre que le traitement automatique se lance, ou lancez manuellement leur traitement maintenant."
 
 #: tpl/db_optm/manage.tpl.php:26
 msgid "Clean all orphaned post meta records"
