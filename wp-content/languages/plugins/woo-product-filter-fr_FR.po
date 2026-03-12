@@ -1,0 +1,3365 @@
+# Translation of Plugins - Product Filter for WooCommerce by WBW - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Product Filter for WooCommerce by WBW - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-11 13:22:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Product Filter for WooCommerce by WBW - Stable (latest release)\n"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1016
+msgid "Warning! Option uses php sessions! Filter products by different filter blocks of categories / tags / attributes by logic and / or."
+msgstr "Avertissement! L'option utilise des sessions php ! Filtrer les produits par différents blocs de filtres de catégories/tags/attributs par logique et/ou."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:448
+msgid "This option recalculates all filters, taking into account third-party filters from other plugins on the page. For example, if the products on the page with the woobewoo filter were already pre-filtered by some third-party plugin filter, as a result of which the counters do not work correctly. But be careful, when the option is enabled, the filter may work slowly if the product base is large."
+msgstr "Cette option recalcule tous les filtres en tenant compte des filtres tiers des autres plugins de la page. Par exemple, si les produits sur la page avec le filtre woobewoo étaient déjà pré-filtrés par un filtre de plugin tiers, à la suite de quoi les compteurs ne fonctionnent pas correctement. Mais attention, lorsque l'option est activée, le filtre peut fonctionner lentement si la base de produits est importante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:975
+msgid "On the category page, display only the child elements of the current category"
+msgstr "Sur la page de catégorie, afficher uniquement les éléments enfants de la catégorie en cours"
+
+#: modules/woofilters/models/woofilters.php:222
+msgid "Oldest first"
+msgstr "Le plus ancien en premier"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:988
+msgid "Display Only Children Of Current Category"
+msgstr "Afficher uniquement les enfants de la catégorie actuelle"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:197
+msgid "The filter will be located in a popup"
+msgstr "Le filtre sera situé dans une fenêtre contextuelle"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:7
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:196
+msgid "Floating mode"
+msgstr "Mode flottant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:85
+msgid "Hides all parent categories of any level, leaving only the end children"
+msgstr "Masque toutes les catégories parentes de n'importe quel niveau, ne laissant que les enfants finaux"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:250
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:84
+msgid "Hide parents of all levels"
+msgstr "Masquer les parents de tous niveaux"
+
+#: modules/woofilters/models/woofilters.php:229
+msgid "SKU descending"
+msgstr "SKU décroissant"
+
+#: modules/woofilters/models/woofilters.php:228
+msgid "SKU ascending"
+msgstr "SKU croissant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:842
+msgid "Exclude variations on backorder"
+msgstr "Exclure les variations des commandes en attente"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:843
+msgid "If the option \"Hide out of stock items from the catalog\" is enabled, out of stock products will not be filtered. If this option is also enabled, on backorder products will also be excluded."
+msgstr "Si l’option « Masquer les produits en rupture de stock du catalogue » est activée, les produits en rupture de stock ne seront pas filtrés. Si cette option est également activée, les produits en rupture de stock seront également exclus."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:138
+msgid "Check page category"
+msgstr "Cocher la catégorie de la page"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:139
+msgid "Оn the category page automatically put a check mark for current category"
+msgstr "Sur une page catégorie, coche automatiquement la catégorie courante"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:151
+msgid "Hide current page category"
+msgstr "Masquer la catégorie de page actuelle"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:152
+msgid "The category page automatically hides the current category"
+msgstr "La page de catégorie masque automatiquement la catégorie actuelle"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:216
+msgid "Only For Mobile"
+msgstr "Uniquement pour mobile"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:217
+msgid "Only For Desktop"
+msgstr "Uniquement sur ordinateur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:218
+msgid "For All Device"
+msgstr "Pour tous les appareils"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:505
+msgid "Auto Filtering"
+msgstr "Filtrage automatique"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:506
+msgid "Filtering Button"
+msgstr "Bouton de filtrage"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:584
+msgid "Both"
+msgstr "Haut et bas"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:603
+msgid "Filter-Clear"
+msgstr "Filtrer-Effacer"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:604
+msgid "Clear-Filter"
+msgstr "Effacer-Filtrer"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:804
+msgid "No products found"
+msgstr "Aucun produit trouvé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:33
+msgid "All pages"
+msgstr "Toutes les pages"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:34
+msgid "Specific pages"
+msgstr "Pages spécifiques"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1207
+msgid "Do not remove products while loading"
+msgstr "Ne pas retirer les produits pendant le chargement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1208
+msgid "To prevent products container from collapsing during ajax."
+msgstr "Pour éviter que le conteneur de produits ne de ferment avec Ajax."
+
+#: modules/options/mod.php:278
+msgid "Generate HTML based on WCAG standards"
+msgstr "Générer du code HTML basé sur les normes WCAG"
+
+#: modules/options/mod.php:279
+msgid "Use Web Content Accessibility Guidelines"
+msgstr "Utiliser les directives d’accessibilité de contenu Web"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:16
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:20
+msgid "Import tables"
+msgstr "Tables d’importation"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:24
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:28
+msgid "Export selected"
+msgstr "Exporter la sélection"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:482
+msgid "Switch to menu mode"
+msgstr "Passer en mode menu"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:185
+msgid "Open Filters One By One"
+msgstr "Ouvrir les filtres un par un"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:186
+msgid "Only when a selection is made in the current filter show the next one"
+msgstr "Uniquement lorsqu’une sélection est effectuée dans le filtre actuel, afficher le suivant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:385
+msgid "Display Products With The Status \"Private\""
+msgstr "Afficher les produits avec l’état « Privé »"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1032
+msgid "Enable third-party prefilter"
+msgstr "Activer le pré-filtre tiers"
+
+#: modules/woofilters_widget/elementor/woofilters.php:74
+msgid "Show More"
+msgstr "Afficher plus"
+
+#: modules/woofilters_widget/elementor/woofilters.php:75
+msgid "Show Fewer"
+msgstr "Afficher moins"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:483
+msgid "When this option is activated, this section of categories loses the ability to filter products and works as a navigation menu"
+msgstr "Lorsque cette option est activée, cette section de catégories perd la possibilité de filtrer les produits et fonctionne comme un menu de navigation"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:386
+msgid "When filtering, products will be displayed not only with the \"publish\" status, but also with the \"private\" status"
+msgstr "Lors du filtrage, les produits seront affichés non seulement avec l’état « Publié », mais également « Privé »"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1033
+msgid "Allows third-party plugins that do not use WooCommerce shortcodes to filter products (required, for example, to work Product Grid Widget with categories preselection from Essential Addons for Elementor)."
+msgstr "Permet aux extensions tierces qui n’utilisent pas de codes courts WooCommerce de filtrer les produits (nécessaire, par exemple, pour travailler Product Grid Widget avec présélection des catégories à partir d’Essential Addons for Elementor)."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:782
+msgid "Checked Items In Bold"
+msgstr "Éléments cochés en gras"
+
+#: modules/meta/mod.php:86
+msgid "run in background "
+msgstr "Lancement en arrière-plan"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:899
+msgid "After filtration will be scroll to products block"
+msgstr "Après filtrage, la page défilera jusqu’au bloc des produits."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:122
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:213
+msgid "Alphabetical index"
+msgstr "Index alphabétique"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1071
+msgid "Apply loader settings to all filters"
+msgstr "Appliquer les paramètres de préchargement à tous les filtres."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:898
+msgid "Autoscroll To Products After Filtering"
+msgstr "Défiler automatiquement jusqu’aux produits après filtrage"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:100
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:101
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:185
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:186
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:92
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:93
+msgid "Buttons Settings"
+msgstr "Paramètres des boutons"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:171
+msgid "Disable number formatting"
+msgstr "Désactiver le formatage du nombre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:268
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:102
+msgid "Extend parent select"
+msgstr "Étendre la sélection du parent"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:195
+msgid "Filter products by different categories using and/or logic."
+msgstr "Filtrez les produits sur plusieurs catégories en utilisant une logique et/ou."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:191
+msgid "Force numeric values"
+msgstr "Forcer des valeurs numériques"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:90
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:54
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:82
+msgid "Hide checkboxes"
+msgstr "Masquer les cases à cocher"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:103
+msgid "If parent filter category was selected then extend selection to child categories."
+msgstr "Si la catégorie parent a été choisie comme critère de filtre, étend la sélection aux catégories enfants."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:473
+msgid "Max terms show"
+msgstr "Maximum de termes affichés"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:194
+msgid "Product selection"
+msgstr "Sélection de produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:151
+msgid "Select the attribute slider skin."
+msgstr "Choisissez l’aspect du filtre d’attributs glissière"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:112
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:36
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:47
+msgid "Selects the default filter value by id"
+msgstr "Définissez la valeur de filtre par défaut par son identifiant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:140
+msgid "Set min/max prices"
+msgstr "Définir les prix min/max"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:320
+msgid "Set Number Of Displayed Products"
+msgstr "Nombre de produits à afficher"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:149
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:110
+msgid "Set tax rates"
+msgstr "Définir le taux de taxe"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:141
+msgid "Set the price min/max value. Doesn't working with recount prices option!"
+msgstr "Définissez la valeur min/max du prix. Ne fonctionne pas avec l’option de recomptage des prix!"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:123
+msgid "Show Alphabetical index."
+msgstr "Montrer l’index alphabétique"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:214
+msgid "Show Alphabetical index. Works only for parent elements."
+msgstr "Affiche un index alphabétique. Fonctionne uniquement sur les éléments parents."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:161
+msgid "Show attribute input fields"
+msgstr "Afficher les attributs bornes"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:205
+msgid "Show element image. Not working with dropdown."
+msgstr "Affiche l’image de l’élément. Ne fonctionne pas sur les listes déroulantes."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:204
+msgid "Show images"
+msgstr "Afficher les images"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:150
+msgid "Slider skin"
+msgstr "Aspect de la glissière"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:133
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:134
+msgid "Switch Settings"
+msgstr "Paramètres de l’interrupteur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:474
+msgid "The maximum number of terms to be shown before Show more button"
+msgstr "Définissez le nombre maximal de termes à afficher avant le bouton \"Afficher plus\""
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:150
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:111
+msgid "The values will be changed by the specified percentage"
+msgstr "Les valeurs seront modifiées du pourcentage défini"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:192
+msgid "Transform attribute values to numeric"
+msgstr "Transforme les valeurs des attributs en valeurs numériques."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:271
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:156
+msgid "Turn this on if you want to sort the values as numbers."
+msgstr "Activez pour trier les valeurs en tant que nombres."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:90
+msgid "Use as default"
+msgstr "Utiliser par défaut"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:70
+msgid "Use exact values"
+msgstr "Utiliser des valeurs exactes"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:71
+msgid "Use exact values instead of range"
+msgstr "Utilise les valeurs exactes plutôt qu’un intervalle."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:111
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:35
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:46
+msgid "Select default id"
+msgstr "Définir l’identifiant par défaut"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:91
+msgid "Select some stock status as default."
+msgstr "Choisir le status de stock par défaut."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:175
+msgid "Redirect After Filter Selection"
+msgstr "Rediriger après sélection d’un filtre"
+
+#: modules/meta/mod.php:196
+msgid "Everyday"
+msgstr "Tous les jours"
+
+#: modules/meta/mod.php:201
+msgid "Friday"
+msgstr "Vendredi"
+
+#: modules/meta/mod.php:197
+msgid "Monday"
+msgstr "Lundi"
+
+#: modules/meta/mod.php:202
+msgid "Saturday"
+msgstr "Samedi"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:112
+msgid "Show currency in slider"
+msgstr "Montrer la devise dans la glissière"
+
+#: modules/meta/mod.php:203
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: modules/meta/mod.php:200
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: modules/meta/mod.php:198
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: modules/meta/mod.php:199
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: modules/meta/mod.php:101
+msgid "Start indexing on a schedule"
+msgstr "Commencer l’indexation selon une planification"
+
+#: modules/meta/mod.php:102
+msgid "Indexing will start at the selected time according to the schedule"
+msgstr "L’indexation commencera à l’heure choisie dans la planification"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:752
+msgid "This option disables any other sorting on the page."
+msgstr "Cette option désactive tout autre tri sur la page."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:32
+msgid "All Woocommerce Pages"
+msgstr "Toutes les pages Woocommerce"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:39
+msgid "Brand Page"
+msgstr "Page des Marques"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:8
+msgid "Multiline star rating"
+msgstr "Note multi-ligne en étoiles"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:29
+msgid "Product Category"
+msgstr "Catégorie de produits"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:31
+msgid "Product Page"
+msgstr "Page produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:30
+msgid "Product Tag"
+msgstr "Étiquette produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:5
+msgid "Radiobuttons list"
+msgstr "Liste de boutons radio"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:28
+msgid "Shop"
+msgstr "Boutique"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:7
+msgid "Single line star rating"
+msgstr "Note en étoiles en ligne"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:35
+msgid "Specific Category"
+msgstr "Catégories spécifiques"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:15
+msgid "Stylized Dropdown"
+msgstr "Liste déroulante stylisée"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:85
+msgid "After"
+msgstr "Après"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:85
+msgid "Before"
+msgstr "Avant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:7
+msgid "Big skin"
+msgstr "Aspect gros"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersFeatured.php:13
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersOnSale.php:12
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:12
+msgid "Checkboxes"
+msgstr "Cases à cocher"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:13
+msgid "Circle skin"
+msgstr "Aspect cercle"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:12
+msgid "Compact skin"
+msgstr "Aspect compact"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:5
+msgid "default"
+msgstr "défaut"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:6
+msgid "Flat skin"
+msgstr "Aspect plat"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:8
+msgid "Modern skin"
+msgstr "Aspect moderne"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:14
+msgid "Rail skin"
+msgstr "Aspect rail"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:10
+msgid "Round skin"
+msgstr "Aspect rond"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:9
+msgid "Sharp skin"
+msgstr "Aspect précis"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:11
+msgid "Square skin"
+msgstr "Aspect carré"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:100
+msgid "Symbol"
+msgstr "Symbole"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersFeatured.php:13
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:12
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersOnSale.php:12
+msgid "Toggle Switch"
+msgstr "Interrupteur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:15
+msgid "Trolley skin"
+msgstr "Aspect chariot"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:376
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:87
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:140
+msgid "ASC"
+msgstr "Ordre croissant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:29
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:14
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:14
+msgid "Checkbox list"
+msgstr "Liste de cases à cocher"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:376
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:88
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:141
+msgid "DESC"
+msgstr "Ordre décroissant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:15
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:15
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:14
+msgid "Dropdown (single select)"
+msgstr "Liste déroulante (choix unique)"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:28
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:17
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:17
+msgid "Checkbox list (multiple select)"
+msgstr "Liste de cases à cocher (choix multiple)"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:32
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:19
+msgid "Colors"
+msgstr "Couleurs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:30
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:30
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:12
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:15
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:15
+msgid "Dropdown"
+msgstr "Liste déroulante"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:31
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:31
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:16
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:16
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:16
+msgid "Multiple Dropdown"
+msgstr "Liste déroulante (choix multiple)"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:29
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:14
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:14
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:16
+msgid "Radiobuttons list (single select)"
+msgstr "Liste de boutons radio (choix unique)"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:35
+msgid "Switch"
+msgstr "Interrupteur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:34
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:19
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:19
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:18
+msgid "Text"
+msgstr "Texte"
+
+#: modules/meta/mod.php:89
+msgid "Disable automatic calculation of index tables after editing products."
+msgstr "Désactiver le recalcul automatique des tables d’index après l’édition de produits."
+
+#: modules/promo/models/promo.php:263
+msgid "Found better"
+msgstr "J’ai trouvé mieux"
+
+#: modules/promo/models/promo.php:268
+msgid "No reason"
+msgstr "Aucune raison"
+
+#: modules/promo/models/promo.php:264
+msgid "Not need"
+msgstr "Pas besoin"
+
+#: modules/promo/models/promo.php:262
+msgid "Not working"
+msgstr "Ne fonctionne pas"
+
+#: modules/promo/models/promo.php:265
+msgid "Temporary"
+msgstr "Temporairement"
+
+#: modules/meta/mod.php:90
+msgid "This can be useful if you add products only through imports. Then after importing, just do a full recalculation of the index tables once by clicking the button above."
+msgstr "Ceci peut être utile si vous ajoutez des produits uniquement par import. Après l’import, lancez uniquement un recalcul des tables d’index une seul fois en cliquant sur le bouton ci-dessus."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:13
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:24
+msgid "Yes, show as close"
+msgstr "Oui, afficher fermé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:13
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:24
+msgid "Yes, show as opened"
+msgstr "Oui, afficher ouvert"
+
+#: modules/meta/mod.php:108
+msgid "Logging"
+msgstr "Journalisation"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:447
+msgid "Recalculate Filters"
+msgstr "Recalculer les filtres"
+
+#: modules/meta/mod.php:109
+msgid "Save debug messages to the WooCommerce SystemStatus Log"
+msgstr "Enregistrer les messages de débogage dans le journal WooCommerce SystemStatus"
+
+#: modules/meta/mod.php:81
+msgid "For correct and fast operation of filters, the plugin creates index tables for product parameters. This tables are automatically rebuilt by editing / creating products. But if you edited products with third-party plugins or methods, and/or noticed that the filter does not work correctly, then click this button to forcefully rebuild the index tables. If you have a lot of products, the process may take a while."
+msgstr "Pour un fonctionnement rapide des filtres, l’extension crée des tables d’index pour les réglages du produit. Ces tables sont automatiquement reconstruites en modifiant/créant des produits. Mais si vous avez modifié des produits avec des extensions ou des méthodes tierces et/ou remarqué que le filtre ne fonctionne pas correctement, cliquez sur ce bouton pour reconstruire les tables d’index. Avec beaucoup de produits, le processus peut prendre un du temps."
+
+#: modules/meta/mod.php:80
+msgid "Start indexing product parameters"
+msgstr "Lancer l’indexation des paramètres produits"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:155
+msgid "By default, the filter added by the shortcode is displayed everywhere. This option allows you to restrict the display to only those selected in \"Display on pages\""
+msgstr "Par défaut, le filtre ajouté via code court est affiché partout. Cette option vous permet de restreindre l’affichage uniquement aux pages sélectionnée dans \"Afficher sur les pages\""
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:154
+msgid "Display On Pages Apply For Shortcode"
+msgstr "\"Afficher sur les pages\" s’applique pour le code court"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:527
+msgid "Automatically Update The Filter"
+msgstr "Mise à jour automatique du filtre"
+
+#: modules/options/mod.php:272
+msgid "Display a message about not found products"
+msgstr "Afficher un message lorsqu’aucun produit n’est trouvé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:472
+msgid "Do not use shortcut settings on standard WooCommers pages"
+msgstr "N’applique pas les paramètres du code court sur les pages WooCommerce standard"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:471
+msgid "Don't Use Shortcode Settings"
+msgstr "Ne pas utiliser les paramètres du Code court"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:528
+msgid "When you select one filter element, the rest of the elements will be updated based on its"
+msgstr "Lorsque vous sélectionnez un élément du filtre, le reste des éléments sera mis à jour en fonction de celui-ci."
+
+#: modules/options/mod.php:273
+msgid "If no products were found, display a message about it"
+msgstr "Si aucun produit n’a été trouvé, afficher un message"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:855
+msgid "After filtration by attributes will be displayed product variation instead of main variable product"
+msgstr "Après filtrage sur attributs, les variations de produits seront affichées à la place du produit à variation principal."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:819
+msgid "After filtration will be display products with variations, what have filtered attributes"
+msgstr "Après filtrage seront affichés les produits à variations qui ont des attributs filtrés."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:854
+msgid "Display Variations Instead Of Variable Product"
+msgstr "Afficher les variations plutôt que le produit à variation"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:818
+msgid "Filtering By Variations Attributes"
+msgstr "Filtrer selon les attributs des variations"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:917
+msgid "Turn on only when necessary. Please note that \"slug\" should only contain lowercase Latin letters, numbers and hyphens."
+msgstr "N’activer que si nécessaire. Veuillez noter que les \"slugs\" ne doivent contenir que des caractères latins en minuscules, des nombres ou des tirets."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1000
+msgid "Apply Parameters From The Address Bar To Display Filter Items"
+msgstr "Appliquer les paramètres de la barre d’adresse pour filtrer les éléments."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:916
+msgid "Show Category Slugs In URL Instead Of IDs "
+msgstr "Afficher les slugs de catégories dans l’URL au lieu des IDs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:80
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:46
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:72
+msgid "Allow only one item from the list to be selected at a time"
+msgstr "Ne permettre la sélection que d’un seul élément à la fois"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:294
+msgid "Display brand description"
+msgstr "Afficher la description de la marque"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:296
+msgid "Display brand description before product list"
+msgstr "Afficher la description de la marque avant la liste de produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:116
+msgid "Padding child list"
+msgstr "Marge interne de la liste d’enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:78
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:44
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:70
+msgid "Single select mode"
+msgstr "Mode sélection unique"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1001
+msgid "ATTENTION!!! This option can greatly slow down page loading if you have a lot of products."
+msgstr "ATTENTION !!! Cette option peut ralentir drastiquement le chargement de la page si vous avez beaucoup de produits."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1015
+msgid "Multiblock Taxonomy Logic"
+msgstr "Logique de taxonomie multi-blocs"
+
+#: modules/options/mod.php:267
+msgid "Turn on if you want the sidebar to appear above content on mobile devices. Some themes do not have blocks required for this option."
+msgstr "Activer l’option pour que la colonne latérale s’affiche au-dessus du contenu sur mobile. Certains thèmes n’ont pas de blocs nécessaire pour cette option."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersFeatured.php:23
+msgid "Custom title"
+msgstr "Titre personnalisé"
+
+#: modules/woofilters/models/woofilters.php:226
+msgid "Name A to Z"
+msgstr "Noms de A à Z"
+
+#: modules/woofilters/models/woofilters.php:227
+msgid "Name Z to A"
+msgstr "Noms de Z à A"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:96
+msgid "The filter will be displayed on all child categories"
+msgstr "Le filtre sera affiché sur toutes les catégories enfant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:93
+msgid "Include Child Categories"
+msgstr "Inclure les catégories enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:435
+msgid "If after ajax filtering there are differences in the styles of the list of products, pagination or count-block, then enable this option. Important: for correct operation, we recommend filling the Product container selector option."
+msgstr "Si après un filtrage en ajax il y a des différences de style dans la liste des produits, la pagination ou le bloc de comptage, activez cette option. Important: pour un fonctionnement correct, nous recommandons de remplir l’option « Sélecteur du conteneur produits\"."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:399
+msgid "Custom selector for loading a loader and updating the product list. The default product selector is `ul.products`. If the Filter after ajax filtering does not find the product block and cannot replace it with the filtered list of products, the page will reload. In this case, you need to specify the product block selector in this setting."
+msgstr "Sélecteur personnalisé pour le chargement et la mise à jour de la liste produits. Le sélecteur par défaut est `ul.products`. Si le filtrage ajax ne trouve pas le bloc produit et ne peut le remplacer avec la liste des produits filtrés, la page sera rechargée. Dans ce cas, vous devez préciser le sélecteur de bloc produit dans ce paramètre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:434
+msgid "Force Theme Templates"
+msgstr "Forcer les modèles du thème"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:301
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:320
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:154
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:198
+msgid "By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+msgstr "Par défaut, si une valeur est choisie dans le filtre, le éléments sans produit seront toujours affiché (ceci a été fait sciemment pour que vous puissiez rapidement basculer entre les éléments). Si activée, les éléments vide seront cachés indépendamment de l’activité du filtre (ceci s’applique aussi au chargement via ajax et lors d’un rechargement de page avec les réglages spécifiés dans l’url)."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:300
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:319
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:153
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:197
+msgid "Same behavior for active filter"
+msgstr "Comportement identique pour le filtre actif"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:416
+msgid "If there are several product shortcodes on the page, you can add a container selector that will limit the effect of this filter only inside it."
+msgstr "Si vous avez plusieurs codes courts de produits sur une page, vous pouvez préciser le sélecteur du conteneur qui limitera l’effet de ce filtre à ce conteneur."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:388
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:270
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:102
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:155
+msgid "Sort as numbers"
+msgstr "Trier en tant que nombres"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:7
+msgid "You can choose to display the sorting by dropdown or radio buttons"
+msgstr "Vous pouvez choisir d’afficher le tri comme liste déroulante ou boutons radio."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:415
+msgid "Product Container Selector"
+msgstr "Sélecteur du conteneur produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:398
+msgid "Product List / Loader Selector"
+msgstr "Sélecteur de chargement/liste produits"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:176
+msgid "You can select one of the available pages to redirect to it after selecting a filter"
+msgstr "Choisir une des pages disponibles pour rediriger l’utilisateur/utilisatrice dessus après la sélection d’un filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:281
+msgid "Attributes are displayed according to the order of their selection in the input fields."
+msgstr "Les attributs sont affichés selon l’ordre de leur sélection dans les champs de saisie."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:7
+msgid "Depending on whether you need one or several categories to be available at the same time, show your categories list as checkbox or dropdown."
+msgstr "Selon que vous avez besoin d’une ou de plusieurs catégories en même temps, vous pouvez afficher votre liste de catégories sous forme de case à cocher ou de liste déroulante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:43
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:27
+msgid "Select the sorting options available for site users (min two options)."
+msgstr "Choisissez les options de tri disponibles pour vos utilisateurs (au moins deux options)."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:207
+msgid "Exclude brand terms from filter by ids. Example input: 1,2,3."
+msgstr "Exclue du filtre des termes de marques via leurs identifiants. Exemple de saisie : 1,2,3 "
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:80
+msgid "Set brands sorting by ascendance or descendance."
+msgstr "Triez les marques par ordre croissant ou décroissant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:4
+msgid "Show title label with open/close filter functionality. Be carefull when show it as close with \"Hide filter by title click\" filter oprionality. In such case users do not see filter content."
+msgstr "Afficher l’étiquette du titre dépliable. Soyez vigilant lorsqu’il est affiché fermé avec l’option \"Masquer le filtre en cliquant son titre\". Dans un tel cas, les utilisateurs ne verront pas le contenu du filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:66
+msgid "Change stock status names."
+msgstr "Modifiez les noms de états de stock."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:16
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:58
+msgid "Set the filter width in pixels or percent."
+msgstr "Définit la largeur en pixels ou pourcentage."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:373
+msgid "Exclude category terms from filter by ids. Example input: 1,2,3."
+msgstr "Exclue du filtre des termes de catégories via leurs identifiants. Exemple de saisie : 1,2,3 "
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:311
+msgid "Hide categories without products."
+msgstr "Masquer les catégories sans produits."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:908
+msgid "When you click on the block open icon, all other open blocks will be automatically closed"
+msgstr "Quand vous cliquez sur l’icône d’ouverture d’un bloc, tous les autres blocs ouverts sont automatiquement fermés."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:927
+msgid "Be careful when deactivate it with filter titles shown as close, In such case users do not see filter content."
+msgstr "Soyez vigilant quand vous désactivez cela alors que les titres utilisent l’option \"Oui, afficher fermé\". Dans un tel cas les utilisateurs ne verront pas le contenu du filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:7
+msgid "Define which role show users in the drop down."
+msgstr "Définissez quels rôles afficher aux utilisateurs dans la liste déroulante"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:956
+msgid "Filtering of categories list on filter process."
+msgstr "Filtre la liste de catégories lors du processus de filtrage."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:907
+msgid "If One Filter Block Is Open, Other Blocks Are Closed"
+msgstr "Si un bloc est ouvert, les autres sont refermés"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:640
+msgid "Search for a filtering results among all shop products on any shop pages."
+msgstr "Cherche des résultats de filtrage sur tous les produits de la boutique sur toutes les pages boutique."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:575
+msgid "Select the position of filter buttons on the page."
+msgstr "Choisissez la position sur la page des boutons du filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:252
+msgid "Set categories sorting by ascendance or descendance."
+msgstr "Triez les catégories par ordre croissant ou décroissant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:639
+msgid "Always Filtering By All Products"
+msgstr "Toujours filtrer depuis tous les produits"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:955
+msgid "Filtering Of Categories List"
+msgstr "Filtrer la liste de catégories"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:563
+msgid "Reset All Filters On Page"
+msgstr "Réinitialiser tous les filtres de la page"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:596
+msgid "Change the order of filter buttons on the page."
+msgstr "Change l’ordre des boutons du filtre sur le page."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:798
+msgid "Input \"no products found\" text for category."
+msgstr "Saisir ici le texte à afficher dans le cas où « aucun produit n’est trouvé » pour la catégorie."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:230
+msgid "Remove other woofilters on page except current filter."
+msgstr "Supprime de la page les filtres \"woofilters\" autre que le filtre courant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:229
+msgid "Force Show Only Current Filter On Page"
+msgstr "Afficher uniquement ce filtre sur la page"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:370
+msgid "Set attributes sorting by ascendance or descendance."
+msgstr "Triez les attributs par ordre croissant ou décroissant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:4
+msgid "Select attribute to be displayed on site from the list."
+msgstr "Choisir dans la liste l’attribut à afficher sur le site."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:23
+msgid "Select the price filter skin."
+msgstr "Choisissez l’aspect du filtre de prix"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:235
+msgid "Exclude tags terms from filter by ids. Example input: 1,2,3."
+msgstr "Exclue du filtre des termes d’étiquettes via leurs ID. Exemple ode saisie : 1,2,3."
+
+#: modules/woofilters/models/woofilters.php:111
+msgid "text"
+msgstr "texte"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:68
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:4
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:4
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:16
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:58
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:100
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:201
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:221
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:241
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:261
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:4
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:42
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:151
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:232
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:281
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:317
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:328
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:343
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:370
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:416
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:427
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:449
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:7
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:22
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:47
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:63
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:78
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:95
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:117
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:7
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:66
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:115
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:170
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:236
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:252
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:282
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:293
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:302
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:311
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:329
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:351
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:362
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:373
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:384
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:424
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:435
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:457
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:27
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:43
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:66
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:23
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:7
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:42
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:51
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:65
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:84
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:93
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:102
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:121
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:146
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:16
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:35
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:85
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:101
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:27
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:7
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:108
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:119
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:133
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:167
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:178
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:189
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:207
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:224
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:235
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:282
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:293
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:315
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:22
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:209
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:230
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:249
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:276
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:342
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:362
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:375
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:498
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:544
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:575
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:596
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:640
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:670
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:693
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:712
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:737
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:767
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:798
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:881
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:908
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:917
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:927
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:956
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1016
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1033
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1053
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1102
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: modules/woofilters/models/woofilters.php:166
+msgid "vendors"
+msgstr "vendeurs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:189
+msgid "Hide tags without products."
+msgstr "Masque les étiquettes sans produit."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:133
+msgid "Set tags sorting by ascendance or descendance."
+msgstr "Triez les étiquettes par ordre croissant ou décroissant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:63
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:119
+msgid "Show search field in multiple dropdown box."
+msgstr "Affiche un champs de recherche dans la liste déroulante à choix multiple."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:261
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:95
+msgid "Collapsible"
+msgstr "Repliable"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:120
+msgid "Could be in both, child or parent"
+msgstr "Peut être dans l’un des deux, parent ou enfant "
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:169
+msgid "Filter with children"
+msgstr "Filtrer avec les enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:262
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:96
+msgid "If enabled, then show only parent elements, if there are children, they are minimized."
+msgstr "Si activé, seuls les éléments parents sont affichés. S’ils ont des enfants, ils sont minimisés."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:342
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:176
+msgid "Include children"
+msgstr "Inclure les enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:121
+msgid "Only in child"
+msgstr "Seulement dans les enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:122
+msgid "Only in parent"
+msgstr "Seulement dans le parent"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:114
+msgid "Product selection hierarchically"
+msgstr "Sélection hiérarchique de produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:361
+msgid "Restrict filtering results only to selected categories"
+msgstr "Restreindre les résultats aux catégories choisies uniquement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:218
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:223
+msgid "Show search field in multiple dropdown box"
+msgstr "Affiche un champs de recherche dans la liste déroulante à choix multiple."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:217
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:62
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:222
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:118
+msgid "Show search for dropdown"
+msgstr "Afficher la recherche dans la liste déroulante"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:170
+msgid "If parent filter category was selected then extend filter result to child categories."
+msgstr "Si une catégorie parent est sélectionnée le résultat de filtrage est étendu aux catégories enfants."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:115
+msgid "Restrict filtering result only to child categories or only to parent if both of them selected in the same time."
+msgstr "Restreint le résultat de filtre aux catégories enfant uniquement ou au parent uniquement si les deux sont sélectionnées."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:362
+msgid "When the filter is clear, he will be restrict filtered results only by selected items. Be careful when using with other filters in block!."
+msgstr "Lorsque le filtre est purgé, il ne sera limité aux résultats filtrés que par les éléments choisis. Attention lors de l’utilisation avec d’autres filtres dans le bloc."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:252
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1022
+msgid "And"
+msgstr "Et"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:301
+msgid "Count parents with children"
+msgstr "Compter les parents avec enfants"
+
+#: modules/woofilters_widget/elementor/woofilters.php:181
+msgid "Create Filter"
+msgstr "Créer un filtre"
+
+#: modules/woofilters_widget/elementor/woofilters.php:167
+msgid "Filter Name"
+msgstr "Nom du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:253
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1022
+msgid "Or"
+msgstr "Ou"
+
+#: modules/woofilters_widget/elementor/woofilters.php:157
+msgid "Select Filter"
+msgstr "Filtre de recherche"
+
+#: modules/woofilters_widget/elementor/woofilters.php:149
+msgid "Select Woofilter"
+msgstr "Choisir un Woofilter"
+
+#: modules/woofilters/models/woofilters.php:165
+msgid "Vendors"
+msgstr "Vendeurs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:302
+msgid "Count for parent category also her children count. <strong>Warning!</strong> If filtering will slow do uncheck this option."
+msgstr "Lors du compte d’une catégorie parent inclut les comptes de ses enfants. <strong>Attention !</strong> Si le filtrage est lent, décochez cette option."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:375
+msgid "Enable this option when ajax filtering does not work as expected. For example, sorting does not work. Removes filters such as posts_orderby and pre_get_posts."
+msgstr "Activez cette option quand le filtrage ajax ne fonctionne pas comme attendu. Par exemple, le tri ne fonctionne pas. Supprime les filtres wordpress tels que posts_orderby et pre_get_posts."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:224
+msgid "Selected tags will be marked as default and hidden on frontend."
+msgstr "Les étiquettes choisies seront sélectionnées par défaut et masquées sur le site."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:249
+msgid "Set breakpoint for all options that depend on a mobile/desktop view. \"Show title label\", \"Display filter on\" etc."
+msgstr "Définissez le point de rupture pour toutes les options variables selon mobile/ordinateur. \"Montrer l’étiquette de titre\", \"Afficher le filtre sur\" etc…"
+
+#: modules/woofilters_widget/elementor/woofilters.php:121
+msgid "Woofilters"
+msgstr "Woofilters"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:374
+msgid "Remove Actions Before Filtering"
+msgstr "Supprimer les actions avant filtrage"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:248
+msgid "Set Mobile/Desktop Breakpoint"
+msgstr "Définir le point de rupture mobile/ordinateur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:23
+msgid "1-st level title"
+msgstr "Titre de 1er niveau"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:34
+msgid "2-nd level title"
+msgstr "Titre de 2ème niveau"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:45
+msgid "3-rd level title"
+msgstr "Titre de 3ème niveau"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:12
+msgid "Filter header"
+msgstr "En-tête du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:595
+msgid "Select Filter Buttons Order"
+msgstr "Choisissez l’ordre des boutons de filtrage"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:3
+msgid "Use Custom tags"
+msgstr "Utiliser des balises personnalisées"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCustomTags.php:4
+msgid "Choose tags for filter titles. Any settings you leave blank will default."
+msgstr "Choisissez les balises pour les titres de filtres. Tout paramètre vide aura sa valeur par défaut."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:42
+msgid "Depending on whether you need one or several attributes to be available at the same time, show attributes list as checkbox or dropdown. <strong>Attention!</strong> Slider type work only with numeric titles of attributes."
+msgstr "Si vous avez besoin d’un ou plusieurs attributs en même temps, vous pouvez afficher votre liste d’attributs sous forme de case à cocher ou de liste déroulante. <strong>Attention !</strong> Le type curseur ne fonctionne qu’avec des attributs numériques."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:101
+msgid "Use custom number of decimals"
+msgstr "Nombre personnalisé de décimales"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:102
+msgid "This sets the number of decimal points shown in displayed prices."
+msgstr "Ceci définit le nombre de décimales montrées à l’affichage des prix."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:497
+msgid "Filter Activation Type"
+msgstr "Mode d’activation du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:341
+msgid "Set Number Of Products Per Row"
+msgstr "Définir le nombre de produits par ligne"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:342
+msgid "Set number of products per row. This number will only be shown after filter is applied!"
+msgstr "Définir le nombre de produits par ligne. Ce numéro ne sera affiché qu’après l’application du filtre !"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:97
+msgid "Do not leave empty fields. Enter `i` if you want the value to be calculated automatically (for From field this will be the minimum price, for field To - the maximum price"
+msgstr "Ne laissez aucun champs vie. Entrez ’i’ si vous souhaitez que la valeur soit calculée automatiquement (pour le champs Depuis ce sera le prix minimum, pour le champs Jusqu’à le prix maximum)"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:246
+msgid "If checked, the entire list of brands will always be visible, otherwise only available for filtered items."
+msgstr "Si sélectionné, la liste entière des marques sera toujours visible, sinon seul celles disponibles pour les éléments filtrés le seront."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:83
+msgid "Use Under/Over values"
+msgstr "Utiliser des valeurs \"Inférieur à/Supérieur à\""
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:712
+msgid "Automatically change min/max price by selected filters (If product category loading slowly - Disable this function)."
+msgstr "Modifie automatiquement les prix min/max selon les critères choisis (si le chargement est lent, désactivez cette option)."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:84
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:93
+msgid "Use Under/Over label instead of minimum and maximum values."
+msgstr "Affiche un libellé \"Inférieur à/Supérieur à\" au lieu des valeurs minimales et maximales."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:21
+msgid "Display On Pages"
+msgstr "Afficher sur les pages"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:711
+msgid "Recount Min/Max Price By Selected Filter"
+msgstr "Recalculer les prix min/max en fonction des filtres définis"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:245
+msgid "Always display all brands"
+msgstr "Toujours afficher toutes les marques"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:184
+msgid "Make selected brands as default"
+msgstr "Par défaut cocher les marques choisies "
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:185
+msgid "Selected brands will be marked as default and hidden on frontend."
+msgstr "Les attributs choisis seront sélectionnées par défaut et masqués sur le site."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:195
+msgid "Clear filter only to selected brands"
+msgstr "Efface le filtre uniquement pour les marques sélectionnées"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:218
+msgid "Show search display the bar for searching by brand name in the filter."
+msgstr "Affiche la barre de recherche par nom de marque dans le filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:163
+msgid "Select product brands to be displayed on your site from the list. If you want to select several brands, hold the \"Shift\" button and click on brand names. Or you can hold \"Ctrl\" and click on brand names. Press \"Ctrl\" + \"a\" for checking all brands."
+msgstr "Choisir dans la liste les marques à afficher sur le site. Si vous voulez choisir plusieurs marques, maintenez la touche « Majuscule » et cliquez sur les noms des marques. Vous pouvez aussi maintenir la touche « Ctrl » et cliquer sur les noms des marques. Appuyez sur les touches « Ctrl » + « a » pour choisir toutes les marques."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:196
+msgid "When the filter is clear, he will be filtered only by selected items. Be careful when using two or more brand filters!"
+msgstr "Lorsque le filtre est vide, il ne sera filtré que par les éléments sélectionnés. Faites attention lorsque vous utilisez deux ou plusieurs filtres de marque !"
+
+#: modules/woofilters/views/woofilters.php:3236
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:7
+msgid "Depending on whether you need one or several brands to be available at the same time, show your brands list as checkbox or dropdown."
+msgstr "Selon que vous avez besoin d’une ou de plusieurs marques en même temps, vous pouvez afficher votre liste de marques sous forme de case à cocher ou de liste déroulante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:122
+msgid "Hide brands parent"
+msgstr "Masquer les marques parents"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:144
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:145
+msgid "Hide brands without products"
+msgstr "Masquer les marques sans produit"
+
+#: modules/woofilters/views/woofilters.php:3162
+msgid "Over"
+msgstr "Supérieur à"
+
+#: modules/woofilters/models/woofilters.php:132
+msgid "Perfect brands"
+msgstr "Marques parfaites"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:123
+msgid "Show only brands children."
+msgstr "Affiche uniquement les marques enfants."
+
+#: modules/woofilters/views/woofilters.php:3161
+msgid "Under"
+msgstr "Inférieur à"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:433
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:101
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:441
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:263
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:129
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:299
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:33
+msgid "is available"
+msgstr "est possible."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:426
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:94
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:434
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:256
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:120
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:292
+msgid "Layout"
+msgstr "Mise en page"
+
+#: classes/req.php:40 classes/req.php:118 classes/req.php:175
+#: classes/req.php:206
+msgid "Security check"
+msgstr "Vérification de sécurité"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:427
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:435
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:257
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:121
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:293
+msgid "Select a vertical or horizontal layout and set the count of columns."
+msgstr "Choisissez une mise en page verticale ou horizontale et définissez le nombre de colonnes."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:433
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:101
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:441
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:263
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:128
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:299
+msgid "Vertical"
+msgstr "Vertical"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:32
+msgid "Оnly one of"
+msgstr "Seul un choix parmi"
+
+#: modules/promo/views/promo.php:37
+msgid "Contact us"
+msgstr "Contactez nous"
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:59
+msgid "There were some problems while trying to retrieve our news, but you can always check all list %s."
+msgstr "Il y eu quelques soucis lors de la récupération de nos nouvelles, mais vous pouvez toujours consulter toute la liste %s."
+
+#: modules/promo/views/promo.php:33
+msgid "and other"
+msgstr "et autres"
+
+#. translators: 1: url 2: url
+#: modules/promo/views/promo.php:29
+msgid ""
+"By default all subscribers add to the WordPress. \n"
+"\t\t\t\t\tTo find your subscribers go to Users tab on the left navigation menu of WordPress admin area. \n"
+"\t\t\t\t\tAlso available subscription to the Aweber, MailChimp, MailPoet %1$s. \n"
+"\t\t\t\t\tIf you want to add another subscription service - just %2$s and provide URL of the subscription service."
+msgstr ""
+"Par défaut, tous les abonnés ajoutés à WordPress. \n"
+"\t\t\t\t\tPour trouver vos abonnés, allez dans l’onglet Utilisateurs dans le menu de navigation de gauche de la zone d’administration WordPress. \n"
+"\t\t\t\t\tAbonnement également disponible à Aweber, MailChimp, MailPoet %1$s. \n"
+"\t\t\t\t\tSi vous souhaitez ajouter un autre service d’abonnement, %2$s et saisir l’URL du service d’abonnement."
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:2
+msgid "Check example"
+msgstr "Voir l’exemple"
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:34
+#: modules/promo/views/tpl/pluginDeactivation.php:47
+msgid "contact us"
+msgstr "contactez nous"
+
+#: modules/promo/mod.php:56
+msgid "enabling Usage Statistics"
+msgstr "activer Usage Statistics"
+
+#. translators: %s: url
+#: modules/promo/views/tpl/pluginDeactivation.php:47
+msgid "If you have a question, %s and will do our best to help you"
+msgstr "Si vous avez une question, %s et nous ferons de notre mieux pour vous aider."
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:2
+msgid "Show when user tries to exit from your site."
+msgstr "S’affiche lorsque l’utilisateur quitte votre site."
+
+#: modules/promo/mod.php:57
+msgid "We will collect only our plugin usage statistic data - to understand Your needs and make our solution better for You."
+msgstr "Nous ne collecterons que les données statistiques d’usage de notre extension - pour mieux comprendre Vos besoins et rendre notre solution meilleure pour Vous."
+
+#: modules/promo/mod.php:54
+msgid "You can help us improve our plugin - by"
+msgstr "Vous pouvez nous aider à améliorer cette extension - aussi"
+
+#. translators: %s: url
+#: modules/promo/mod.php:59
+msgid "Check out %s! Years of experience in WordPress plugins developers made those list unbreakable!"
+msgstr "Découvrez %s ! Des années d’expérience dans le développement d’extensions WordPress ont rendu cette liste incroyable !"
+
+#: modules/promo/mod.php:41
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
+msgstr "Pourriez-vous me faire une GROSSE faveur et donner 5 étoiles à cette extension sur WordPress ? Juste pour nous aider à la faire connaître et booster notre motivation."
+
+#. translators: %s: label
+#: modules/promo/mod.php:40
+msgid "Hey, I noticed you just use %s over a week – that’s awesome!"
+msgstr "Hé, j’ai remarqué que vous utilisez %s depuis plus d’une semaine - c’est génial !"
+
+#. translators: %s: url
+#: modules/promo/mod.php:49
+msgid "On behalf of the entire %s company I would like to thank you for been with us, and I really hope that our software helped you."
+msgstr "De la part de tout l’entreprise %s je voudrais vous remercier d’être des nôtres, et j’espère vraiment que notre logiciel vous aidera."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:29
+msgid "Already in the list"
+msgstr "Déjà dans la liste"
+
+#: modules/options/views/tpl/optionsAdminPage.php:64
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:43
+#: modules/woofilters_widget/elementor/woofilters.php:184
+msgid "Create"
+msgstr "Créer"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:6
+msgid "Roles"
+msgstr "Rôles"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:8
+msgid "Select filters to add"
+msgstr "Choisissez les filtres à ajouter"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:50
+msgid "Step"
+msgstr "Pas"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:43
+msgid "You have no Filters for now."
+msgstr "Vous n’avez aucun filtre pour l’instant."
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:43
+msgid "your Filter"
+msgstr "votre filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:4
+msgid "Blocks"
+msgstr "Blocs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:33
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:18
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:18
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:17
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:7
+msgid "Buttons"
+msgstr "Boutons"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:440
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:108
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:448
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:270
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:137
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:306
+msgid "Columns"
+msgstr "Colonnes"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:8
+msgid "Content"
+msgstr "Contenu"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:11
+msgid "General styles"
+msgstr "Styles généraux"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:292
+msgid "Hide attributes without products."
+msgstr "Masque les attributs pour lesquels il n’y a aucune correspondance produit."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:6
+msgid "Main"
+msgstr "Principal"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:9
+msgid "Loader"
+msgstr "Préchargement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:890
+msgid "Selected parameters will be displayed in the top/bottom of the filter ."
+msgstr "Les paramètres choisis seront affichés en haut/en bas du filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:66
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:35
+msgid "Show paternal and subsidiary categories (for checkbox list). If you display only some categories, make sure that the parent categories are selected."
+msgstr "Affiche les catégories parents et enfants (pour une liste de case à cocher). Si vous afficher seulement certaines catégories, assurez-vous que les catégories parentes sont sélectionnées."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:5
+msgid "Titles"
+msgstr "Titres"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:200
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:220
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:240
+msgid "Use Custom Styles"
+msgstr "Utiliser des styles personnalisés"
+
+#: modules/promo/mod.php:234
+msgid "Hello Woobewoo Team!"
+msgstr "Salut l’équipe Woobewoo!"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:489
+msgid "Filter Buttons"
+msgstr "Boutons de filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:631
+msgid "Filter Content"
+msgstr "Contenu du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1048
+msgid "Filter Loader"
+msgstr "Préchargement du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1168
+msgid "loader Icon"
+msgstr "Icône de préchargement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1180
+msgid "loader Word"
+msgstr "Texte de préchargement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:941
+msgid "Use Filter Titles As Slugs For The Filter Clear Buttons"
+msgstr "Utiliser les titres de filtres en tant que slugs pour les boutons d’effacement de filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:191
+msgid "Blocks Styling"
+msgstr "Style des blocs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:231
+msgid "Buttons Styling"
+msgstr "Style des boutons"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:9
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:21
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:63
+msgid "desktop"
+msgstr "ordinateur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:20
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:38
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:80
+msgid "mobile"
+msgstr "mobile"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:211
+msgid "Titles Styling"
+msgstr "Style des titres"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:175
+msgid "Use theme styles"
+msgstr "Utiliser les styles du thème"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:737
+msgid "Automatically disabled parameters without products. Works only when options Show count and Always display all... are enabled."
+msgstr "Désactive automatiquement les paramètres sans produit. Fonctionne uniquement quand les options \"Afficher le nombre\" et \"Toujours afficher tous/toutes les...\" sont activés."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:201
+msgid "Choose custom styles for filter blocks. Any settings you leave blank will default."
+msgstr "Choisissez des styles personnalisés pour les blocs de filtre. Toute valeur vide aura sa valeur par défaut."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:241
+msgid "Choose custom styles for filter buttons. Any settings you leave blank will default."
+msgstr "Choisissez des styles personnalisés pour vos boutons de filtre. Tout paramètre laissé vide utilisera sa valeur par défaut."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:221
+msgid "Choose custom styles for filter titles. Any settings you leave blank will default."
+msgstr "Choisissez des styles personnalisés pour les titres de filtre. Toute valeur vide aura sa valeur par défaut."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:276
+msgid "Hide filter on shop and categories pages that displays only categories or subcategories without products."
+msgstr "Masque le filtre sur la page de la boutique et les pages des catégories qui n’affichent que des les catégories ou sous-catégories sans produits."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:498
+msgid "If \"Filtering button\" option was selected, the \"Filter\" button appears at the page. It allows users to set all necessary filter parameters before starting the filtering. If \"Auto filtering\" option was selected, filtering starts as soon as filter elements change and the data reloads automatically."
+msgstr "Si \"Bouton de filtrage\" est choisi, le bouton \"Filtrer\" apparaît sur la page. Il permet aux utilisateurs de définir tous les paramètres de filtre avant que de filtrer. Si \"Filtrage automatique\" est choisi, le filtrage commence dès que les critères de filtre changent et les données sont rechargées automatiquement."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:362
+msgid "This option enables Ajax search. Product filtering and displaying results in a browser will be run in the background without full page reload."
+msgstr "Cette option active la recherche via Ajax. Le filtrage des produtis et l’affichage des résultats dans le navigateur sera réalisé en arrière-plan sans recharger complètement la page."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:275
+msgid "Hide Filter On Shop Pages Without Products"
+msgstr "Masquer le filtre sur les pages boutique sans produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:736
+msgid "Show Parameters Without Products As Disabled"
+msgstr "Afficher les paramètres sans produits comme désactivés"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:176
+msgid "Disable the use of custom plugin styles for filter elements. This option does not work in admin preview."
+msgstr "Désactive l’usage des styles personnalisés de l’extension pour les filtres. Cette option ne fonctionne pas dans la prévisualisation d’administration."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:881
+msgid "For long vertical lists, \"Show more\" will be displayed."
+msgstr "Pour les longues listes verticales, \"Afficher plus\" sera affiché."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:880
+msgid "Display \"Show More\""
+msgstr "Afficher \"Voir plus\""
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:621
+msgid "Display Hide Filters Button"
+msgstr "Afficher le bouton \"Masquer les filtres\""
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:889
+msgid "Display Selected Parameters Of Filters"
+msgstr "Afficher les paramètres de filtres sélectionnés"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:99
+msgid "Filter Block Height"
+msgstr "Hauteur d’un bloc filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:100
+msgid "Set the filter block height in pixels. If not filled, then the height is calculated automatically based on the content of the filter. Please note that if the value of the Maximum height in frontend of the filter is greater than the specified value, some data may be hidden."
+msgstr "Définissez la hauteur d’un bloc filtre en pixels. Si laissé vide, la hauteur est calculée automatiquement en fonction du contenu du filtre. Veuillez noter que si la valeur \"Hauteur maximale sur le site\" du bloc est inférieure à la valeur précisée, des données peuvent ne pas être visibles."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1067
+msgid "Apply loader settings to all filters."
+msgstr "Appliquer les paramètres de préchargement à tous les filtres."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1053
+msgid "Enable filter icon while filtering results are loading."
+msgstr "Activer l’icône de filtre pendant que les résultats de filtrage chargent."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:423
+msgid "Always display all categories"
+msgstr "Toujours afficher toutes les catégories"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:424
+msgid "If checked, the entire list of categories will always be visible, otherwise only available for filtered items."
+msgstr "Si sélectionné, la liste entière des catégories sera toujours visible, sinon seul celles disponibles pour les éléments filtrés le seront."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersOnSale.php:26
+msgid "Checkbox label"
+msgstr "Étiquette de case à cocher"
+
+#: modules/woofilters/models/woofilters.php:245
+msgid "On Sale"
+msgstr "En promo"
+
+#. translators: %s: value
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:324
+msgid "Set number of displayed products. This number will only be shown after filter is applied! You must set the same number as in the basic store settings or in the basic filter <a href=\"%s\" target=\"_blank\">settings</a>."
+msgstr "Définir le nombre de produits affichés. Ce nombre ne sera affiché qu’après l’application du filtre ! Vous devez définir le même nombre que dans les réglages de base de la boutique ou dans les <a href=\"%s\" target=\"_blank\">réglages</a> du filtre de base."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:415
+msgid "Always display all attributes"
+msgstr "Toujours afficher tous les attributs"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:281
+msgid "Always display all tags"
+msgstr "Toujours afficher toutes les étiquettes"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:74
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:43
+msgid "Hide categories parent"
+msgstr "Masquer les catégories parents"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:75
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:44
+msgid "Show only categories children."
+msgstr "Afficher uniquement les catégories enfant."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:416
+msgid "If checked, the entire list of attributes will always be visible, otherwise only available for filtered items."
+msgstr "Si sélectionné, la liste entière des attributs sera toujours visible, sinon seul ceux disponibles pour les éléments filtrés le seront."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:282
+msgid "If checked, the entire list of tags will always be visible, otherwise only available for filtered items."
+msgstr "Si sélectionné, la liste entière des étiquettes sera toujours visible, sinon seul celles disponibles pour les éléments filtrés le seront."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:351
+msgid "Selected categories will be marked as default and hidden on frontend."
+msgstr "Les catégories choisies seront sélectionnées par défaut et masquées sur le site."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:350
+msgid "Make selected categories as default"
+msgstr "Par défaut cocher les catégories choisies"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:223
+msgid "Make selected tags as default"
+msgstr "Par défaut cocher les étiquettes choisies"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:342
+msgid "Make selected attributes as default"
+msgstr "Par défaut cocher les attributs sélectionnées"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:65
+msgid "Change status names"
+msgstr "Changer les noms des états"
+
+#: modules/woofilters/models/woofilters.php:149
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:162
+msgid "Product brands"
+msgstr "Marques produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:751
+msgid "Sort By Title After Filtering"
+msgstr "Trier par titre après filtration"
+
+#: modules/options/mod.php:251
+#: modules/overview/views/tpl/overviewTabContent.php:33
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:3
+msgid "General"
+msgstr "Général"
+
+#: modules/options/mod.php:254
+msgid "Send usage statistics"
+msgstr "Envoyer les statistiques d’utilisation"
+
+#: modules/options/mod.php:261
+msgid "Set number of displayed products. Leave blank for the default value."
+msgstr "Renseignez le nombre de produits à afficher. Laissez vide pour garder la valeur par défaut."
+
+#: modules/options/mod.php:266
+msgid "Move Sidebar To Top For Mobile"
+msgstr "Déplacer la Sidebar en haut pour les smartphones"
+
+#: modules/options/models/modules.php:33
+msgid "Module Updated"
+msgstr "Smartphone mis à jour"
+
+#: modules/options/models/modules.php:49
+msgid "Module Update Failed"
+msgstr "Erreur lors de la mise à jour smartphone"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Erreur sur l’ID du module"
+
+#: modules/options/models/options.php:100
+msgid "Empty data to save option"
+msgstr "Option enregistrer les données vides"
+
+#: modules/woofilters_widget/elementor/woofilters.php:169
+msgid "Enter product filter name"
+msgstr "Entrer le nom du filtre"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "Sauvegarder toutes les options"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:100
+msgid "Additional text for 5"
+msgstr "Texte additionnel pour 5"
+
+#: modules/woofilters/models/woofilters.php:110
+msgid "Search by Text"
+msgstr "Recherche par texte"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:85
+msgid "Additional text for 1-4 rating filter."
+msgstr "Texte additionnel pour filtre sur les notes de 1-4."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:101
+msgid "Additional text for 5-star rating filter."
+msgstr "Texte additionnel pour filtre sur les notes à 5 étoiles."
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "La page principale va ici !!!!"
+
+#: modules/options/mod.php:255
+msgid "Send information about what plugin options you prefer to use, this will help us make our solution better for You."
+msgstr "Envoyez des informations sur les options de plugin que vous préférez utiliser, cela nous aidera à améliorer notre solution pour vous."
+
+#: classes/controller.php:222 classes/controller.php:231
+#: modules/meta/controller.php:29 modules/meta/controller.php:43
+#: modules/options/controller.php:11 modules/overview/controller.php:20
+#: modules/overview/controller.php:33 modules/overview/controller.php:46
+#: modules/pages/views/tpl/deactivatePage.php:49
+#: modules/woofilters/controller.php:82 modules/woofilters/controller.php:103
+#: modules/woofilters/controller.php:119
+msgid "Done"
+msgstr "Terminé"
+
+#: classes/field.php:133 classes/field.php:144 classes/field.php:149
+msgid "N/A"
+msgstr "N/A"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:327
+msgid "Attributes"
+msgstr "Attributs"
+
+#: classes/fieldAdapter.php:88
+msgid "Not selected"
+msgstr "Aucune sélection"
+
+#: classes/fieldAdapter.php:145
+msgid "class"
+msgstr "class"
+
+#: classes/fieldAdapter.php:147
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:269
+msgid "You have no permissions to view this page"
+msgstr "Vous n’avez pas les autorisations pour accéder à cette page"
+
+#. translators: %s: module name
+#: classes/modInstaller.php:39
+msgid "Move files for %s failed"
+msgstr "Échec du déplacement des fichiers pour %s"
+
+#. translators: %s: module name
+#: classes/modInstaller.php:43
+msgid "%s is not plugin module"
+msgstr "%s n’est pas un module d’extension"
+
+#: classes/modInstaller.php:89
+msgid "Cannot create module directory. Try to set permission to "
+msgstr "Impossible de créer le répertoire du module. Essayez de modifier les permission à "
+
+#: classes/modInstaller.php:141
+msgid "No modules were found in XML file"
+msgstr "Aucun module trouvé dans le fichier XML"
+
+#: classes/modInstaller.php:148
+msgid "Invalid XML file"
+msgstr "Fichier XML invalide"
+
+#: classes/modInstaller.php:151
+msgid "No XML file were found"
+msgstr "Aucun fichier XML n’a été trouvé"
+
+#. translators: %s: module name
+#: classes/modInstaller.php:185
+msgid "Install %s failed"
+msgstr "Erreur lors de l’installation %s"
+
+#: classes/modInstaller.php:220
+msgid "Error Deactivation module"
+msgstr "Erreur lors de la désactivation du module"
+
+#: classes/modInstaller.php:240
+msgid "Error Activating module"
+msgstr "Erreur lors de l’activation du module"
+
+#: classes/model.php:175 classes/model.php:189
+msgid "Database error detected"
+msgstr "Une erreur de la base de donnée a été détectée"
+
+#: classes/model.php:178
+msgid "Invalid ID"
+msgstr "ID erroné"
+
+#: classes/model.php:213
+msgid "Empty or invalid ID"
+msgstr "ID vide ou erroné"
+
+#: classes/table.php:294
+msgid "Nothing to update"
+msgstr "Pas de mise à jour"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:204
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:224
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:244
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:264
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:28
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:84
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:94
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:105
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:116
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:127
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:138
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:155
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:165
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:175
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:185
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:196
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:264
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:271
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:389
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:39
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:49
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:57
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:98
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:106
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:144
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:157
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:189
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:198
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:208
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:217
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:226
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:273
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:477
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:486
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:95
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:103
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:300
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:38
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:144
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:153
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:87
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:96
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:105
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:114
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:75
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:51
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:63
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:76
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:86
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:97
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:158
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:63
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:84
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:103
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:124
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:143
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:179
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:189
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:200
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:624
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:865
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:884
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:893
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:902
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:911
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:920
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1073
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1101
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1211
+msgid "PRO Option"
+msgstr "Option PRO"
+
+#: classes/table.php:313
+msgid "Database error. Please contact your developer."
+msgstr "Erreur de la base de données. Veuillez contacter votre développeur."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:100
+msgid "Code"
+msgstr "Code"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:40
+msgid "ID"
+msgstr "ID"
+
+#. translators: %s: label
+#: classes/validator.php:46
+msgid "Invalid numeric value for %s"
+msgstr "Valeur numérique invalide pour %s"
+
+#. translators: %s: label
+#: classes/validator.php:76 modules/promo/controller.php:41
+msgid "Please enter %s"
+msgstr "Veuillez saisir %s"
+
+#. translators: %s: label
+#: classes/validator.php:84 modules/promo/controller.php:41
+msgid "Please select %s"
+msgstr "Veuillez sélectionner %s"
+
+#. translators: %s: label
+#: classes/validator.php:92 classes/validator.php:111
+msgid "Invalid %s"
+msgstr "%s invalide"
+
+#. translators: %s: label
+#: classes/validator.php:96
+msgid "%s is already registered"
+msgstr "%s est déjà enregistré"
+
+#: modules/adminmenu/mod.php:15 modules/options/mod.php:116
+msgid "Settings"
+msgstr "Réglages"
+
+#: modules/adminmenu/mod.php:16
+msgid "More plugins for your WordPress site here!"
+msgstr "Plus d’extensions pour votre site WordPress ici !"
+
+#: modules/adminmenu/mod.php:17 modules/adminmenu/mod.php:18
+#: modules/adminmenu/mod.php:19
+msgid "Spread the word!"
+msgstr "Passer le mot !"
+
+#. translators: %s: label
+#: modules/options/views/tpl/optionsSettingsTabContent.php:51
+msgid "Turned On %s"
+msgstr "Activé le %s"
+
+#. translators: %s: label
+#: modules/options/views/tpl/optionsSettingsTabContent.php:54
+msgid "Turned Off %s"
+msgstr "Désactivé le %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:116
+#: modules/woofilters_widget/elementor/woofilters.php:247
+#: modules/woofilters_widget/elementor/woofilters.php:292
+#: modules/woofilters_widget/elementor/woofilters.php:336
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: modules/options/mod.php:260
+msgid "Set number of displayed products"
+msgstr "Nombre de produits à afficher"
+
+#: modules/pages/views/tpl/deactivatePage.php:45
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr "Supprimer les données de l’extension (options, réglages, tables de la base de données, etc.)"
+
+#: modules/promo/controller.php:7 modules/promo/controller.php:105
+#: modules/promo/controller.php:114 modules/promo/controller.php:123
+msgid "Information was saved. Thank you!"
+msgstr "Information sauvegardée. Merci !"
+
+#: modules/promo/controller.php:23
+msgid "Please don't send contact requests so often - wait for response for your previous requests."
+msgstr "Veuillez ne pas envoyer de demandes de contact si souvent - attendez la réponse à vos demandes précédentes."
+
+#: modules/promo/controller.php:132
+msgid "Thank you for Feedback!"
+msgstr "Merci pour votre commentaire !"
+
+#: modules/promo/mod.php:43 modules/promo/mod.php:51
+msgid "Ok, you deserve it"
+msgstr "Oui, tu le mérites"
+
+#: modules/promo/mod.php:44 modules/promo/mod.php:52
+msgid "Nope, maybe later"
+msgstr "Peut-être plus tard"
+
+#: modules/promo/mod.php:45
+msgid "I already did"
+msgstr "C’est déjà fait"
+
+#: modules/promo/mod.php:53
+msgid "Skip"
+msgstr "Passer"
+
+#: modules/promo/mod.php:111
+msgid "Constant Contact - PRO"
+msgstr "Constant Contact - PRO"
+
+#: modules/promo/mod.php:112
+msgid "Campaign Monitor - PRO"
+msgstr "Suivi de campagne - PRO"
+
+#: modules/promo/mod.php:113
+msgid "Vertical Response - PRO"
+msgstr "Vertical Response - PRO"
+
+#: modules/promo/mod.php:114
+msgid "SendGrid - PRO"
+msgstr "SendGrid - PRO"
+
+#: modules/promo/mod.php:115
+msgid "GetResponse - PRO"
+msgstr "GetResponse - PRO"
+
+#: modules/promo/mod.php:116
+msgid "iContact - PRO"
+msgstr "iContact - PRO"
+
+#: modules/promo/mod.php:117
+msgid "Active Campaign - PRO"
+msgstr "Active Campaign - PRO"
+
+#: modules/promo/mod.php:118
+msgid "Mailrelay - PRO"
+msgstr "Mailrelay - PRO"
+
+#: modules/promo/mod.php:119
+msgid "arpReach - PRO"
+msgstr "arpReach - PRO"
+
+#: modules/promo/mod.php:120
+msgid "SG Autorepondeur - PRO"
+msgstr "SG Autorepondeur - PRO"
+
+#: modules/promo/mod.php:121
+msgid "Benchmark - PRO"
+msgstr "Benchmark - PRO"
+
+#: modules/promo/mod.php:122
+msgid "InfusionSoft - PRO"
+msgstr "InfusionSoft - PRO"
+
+#: modules/promo/mod.php:123
+msgid "SalesForce - Web-to-Lead - PRO"
+msgstr "SalesForce - Web-to-Lead - PRO"
+
+#: modules/promo/mod.php:124
+msgid "ConvertKit - PRO"
+msgstr "ConvertKit - PRO"
+
+#: modules/promo/mod.php:125
+msgid "Emma - PRO"
+msgstr "Emma - PRO"
+
+#: modules/promo/mod.php:126
+msgid "SendinBlue - PRO"
+msgstr "SendinBlue - PRO"
+
+#: modules/promo/mod.php:127
+msgid "Vision6 - PRO"
+msgstr "Vision6 - PRO"
+
+#: modules/promo/mod.php:128
+msgid "Vtiger - PRO"
+msgstr "Vtiger - PRO"
+
+#: modules/promo/mod.php:129
+msgid "Your Mailing List Provider (Ymlp) - PRO"
+msgstr "Your Mailing List Provider (Ymlp) - PRO"
+
+#: modules/promo/mod.php:130
+msgid "4Dem.it - PRO"
+msgstr "4Dem.it - PRO"
+
+#: modules/promo/mod.php:165
+msgid "Testing"
+msgstr "Test"
+
+#: modules/promo/mod.php:167 modules/promo/mod.php:177
+msgid "Get PRO"
+msgstr "Obtenir la version PRO"
+
+#: modules/promo/mod.php:187
+msgid "Popup Location"
+msgstr "Position Popup"
+
+#: modules/overview/views/tpl/overviewFeedback.php:20
+#: modules/overview/views/tpl/overviewTabContent.php:101
+#: modules/promo/mod.php:224
+msgid "Name"
+msgstr "Nom"
+
+#: modules/overview/views/tpl/overviewFeedback.php:21
+#: modules/overview/views/tpl/overviewTabContent.php:102
+#: modules/promo/mod.php:225
+msgid "Email"
+msgstr "E-mail"
+
+#: modules/promo/mod.php:226
+msgid "Website"
+msgstr "Site web"
+
+#: modules/overview/views/tpl/overviewTabContent.php:103
+#: modules/promo/mod.php:227
+msgid "Subject"
+msgstr "Objet"
+
+#: modules/promo/mod.php:228
+msgid "Topic"
+msgstr "Sujet"
+
+#: modules/promo/mod.php:229
+msgid "Plugin options"
+msgstr "Options de l’extension"
+
+#: modules/promo/mod.php:231
+msgid "Require a new functionality"
+msgstr "Demander une nouvelle fonctionnalité"
+
+#: modules/promo/mod.php:232 modules/promo/models/promo.php:266
+#: modules/promo/views/tpl/pluginDeactivation.php:88
+msgid "Other"
+msgstr "Autre"
+
+#: modules/promo/mod.php:234
+msgid "Message"
+msgstr "Message"
+
+#: modules/promo/views/promo.php:39
+msgid "Where's my subscribers?"
+msgstr "Où sont mes abonnés ?"
+
+#: modules/promo/views/promo.php:41
+msgid "PopUp doesn't appear on the website"
+msgstr "La Popup n’apparait pas sur le site web"
+
+#: modules/overview/views/overview.php:56
+#: modules/pages/views/tpl/deactivatePage.php:46
+#: modules/promo/views/promo.php:70 modules/promo/views/promo.php:75
+#: modules/promo/views/promo.php:77 modules/promo/views/promo.php:78
+msgid "Yes"
+msgstr "Oui"
+
+#: modules/pages/views/tpl/deactivatePage.php:46
+#: modules/promo/views/promo.php:70 modules/promo/views/promo.php:75
+#: modules/promo/views/promo.php:77 modules/promo/views/promo.php:78
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:13
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:24
+msgid "No"
+msgstr "Non"
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:13
+msgid "On Exit from Site"
+msgstr "À la sortie du site"
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:15
+msgid "Available in PRO"
+msgstr "Disponible en PRO"
+
+#: modules/promo/views/tpl/adminFooter.php:4
+msgid "Version"
+msgstr "Version"
+
+#: modules/promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Aller"
+
+#: modules/promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Service Client"
+
+#: modules/promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr "Vérifier-le"
+
+#: modules/promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr "Plus d’infos"
+
+#: modules/promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr "Télécharger"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:29
+msgid "Your Feedback"
+msgstr "Votre Commentaire"
+
+#. translators: %s: plugin_name
+#: modules/promo/views/tpl/pluginDeactivation.php:33
+msgid "If you have a moment, please share why you are deactivating %s"
+msgstr "Si vous avez un moment, veuillez nous dire pourquoi vous désactivez %s"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:80
+msgid "It's a temporary deactivation"
+msgstr "C’est une désactivation temporaire"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:92
+msgid "What is the reason?"
+msgstr "Pour quelle raison ?"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:100
+msgid "Skip & Deactivate"
+msgstr "Passer et désactiver"
+
+#: modules/woofilters/controller.php:28
+msgid "Duplicate filter"
+msgstr "Dupliquer le filtre"
+
+#: modules/woofilters/mod.php:2794
+msgid "Add New Filter"
+msgstr "Ajouter un nouveau filtre"
+
+#: modules/woofilters/mod.php:2801
+msgid "Edit"
+msgstr "Modifier"
+
+#: modules/woofilters/mod.php:2809
+msgid "Show All Filters"
+msgstr "Montrer tous les filtres"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:5
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:8
+msgid "Delete selected"
+msgstr "Supprimer la sélection"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:33
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:34
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:225
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:70
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:126
+msgid "Search"
+msgstr "Rechercher"
+
+#: modules/woofilters/mod.php:4727
+msgid "Select..."
+msgstr "Sélectionner…"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:47
+#: modules/woofilters/views/tpl/woofiltersEditTabElementorFilters.php:48
+msgid "Filter name:"
+msgstr "Nom du filtre :"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:48
+msgid "Click to edit"
+msgstr "Cliquer pour modifier"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:63
+msgid "Filter Shortcode"
+msgstr "Code court du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:64
+msgid "Filter PHP code"
+msgstr "Code PHP du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:65
+msgid "Product Shortcode"
+msgstr "Code court du produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:66
+msgid "Product PHP code"
+msgstr "Code PHP du produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:121
+msgid "Delete"
+msgstr "Supprimer"
+
+#: modules/overview/views/tpl/overviewTabContent.php:38
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:132
+msgid "Filters"
+msgstr "Filtres"
+
+#: modules/overview/views/tpl/overviewTabContent.php:48
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:138
+#: modules/woofilters_widget/elementor/woofilters.php:309
+msgid "Design"
+msgstr "Design"
+
+#: modules/overview/views/tpl/overviewTabContent.php:43
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:135
+msgid "Options"
+msgstr "Options"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:132
+msgid "CSS editor"
+msgstr "Éditeur CSS"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:133
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:146
+msgid "JS editor"
+msgstr "Éditeur JS"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:147
+msgid "Custom JS"
+msgstr "JS personnalisé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:361
+msgid "Enable Ajax"
+msgstr "Activer Ajax"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:15
+msgid "Filter Width"
+msgstr "Largeur du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:57
+msgid "Filter Block Width"
+msgstr "Largeur d’un bloc filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:574
+msgid "Select Filter Buttons Position"
+msgstr "Choisir la position des boutons du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1100
+msgid "Filter Loader Icon"
+msgstr "Icône de chargement du filtre"
+
+#: classes/html.php:389
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1106
+msgid "Choose Icon"
+msgstr "Choisir une icône"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1146
+msgid "Enable overlay."
+msgstr "Activer la superposition."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:74
+msgid "From"
+msgstr "De"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:78
+msgid "To"
+msgstr "À"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:26
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:92
+msgid "Add"
+msgstr "Ajouter"
+
+#: modules/overview/views/tpl/overviewTabContent.php:104
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:111
+msgid "Description"
+msgstr "Description"
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:40
+#: modules/woofilters/views/tpl/woofiltersEditTabFilters.php:118
+msgid "Title"
+msgstr "Titre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabCommonTitle.php:3
+msgid "Show title label"
+msgstr "Afficher l’étiquette de titre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:20
+msgid "Filter skin"
+msgstr "Aspect du filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:69
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:92
+msgid "Show price input fields"
+msgstr "Montrer les champs d’entrée de prix"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:79
+msgid "Symbol position"
+msgstr "Position du symbole"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:94
+msgid "Show currency as"
+msgstr "Montrer la devise comme"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:181
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPrice.php:125
+msgid "Use text tooltip instead of input fields"
+msgstr "Utiliser l’infobulle de texte au lieu des champs de saisie"
+
+#: modules/woofilters/models/woofilters.php:29
+msgid "Price"
+msgstr "Prix"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:41
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:21
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersFeatured.php:7
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersOnSale.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:13
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:6
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:6
+msgid "Show on frontend as"
+msgstr "Afficher sur le site comme"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:206
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:46
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:235
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:26
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:63
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:25
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:34
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:107
+msgid "Dropdown label"
+msgstr "Étiquette de liste déroulante"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:211
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:53
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:242
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:33
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:70
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:32
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:41
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:112
+#: modules/woofilters/views/woofilters.php:1466
+#: modules/woofilters/views/woofilters.php:1892
+#: modules/woofilters/views/woofilters.php:2033
+#: modules/woofilters/views/woofilters.php:2356
+#: modules/woofilters/views/woofilters.php:3179
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:41
+msgid "Set range automatically"
+msgstr "Définir automatiquement les intervalles"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:64
+msgid "Set range manually"
+msgstr "Définir un intervalle manuellement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:72
+msgid "Setup"
+msgstr "Configuration"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:448
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:116
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:456
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:278
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:145
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:314
+msgid "Maximum height in frontend"
+msgstr "Hauteur maximale sur le site"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:449
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:117
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:457
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:279
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:146
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:315
+msgid "Set maximum displayed height in frontend."
+msgstr "Définissez la hauteur d’affichage maximale sur site."
+
+#: modules/woofilters/models/woofilters.php:37
+msgid "Price range"
+msgstr "Intervalle de prix"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersSortBy.php:26
+msgid "Sort options"
+msgstr "Options de tri"
+
+#: modules/woofilters/models/woofilters.php:218
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:89
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:142
+msgid "Default"
+msgstr "Par défaut"
+
+#: modules/woofilters/models/woofilters.php:219
+msgid "Popularity"
+msgstr "Popularité"
+
+#: modules/woofilters/models/woofilters.php:103
+#: modules/woofilters/models/woofilters.php:220
+msgid "Rating"
+msgstr "Note"
+
+#: modules/woofilters/models/woofilters.php:221
+msgid "Newness"
+msgstr "Nouveauté"
+
+#: modules/woofilters/models/woofilters.php:223
+msgid "Price: low to high"
+msgstr "Prix : du moins cher au plus cher"
+
+#: modules/woofilters/models/woofilters.php:224
+msgid "Price: high to low"
+msgstr "Prix : du plus cher au moins cher"
+
+#: modules/woofilters/models/woofilters.php:225
+msgid "Random"
+msgstr "Aléatoire"
+
+#: modules/woofilters/models/woofilters.php:45
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:369
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:251
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:79
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:132
+msgid "Sort by"
+msgstr "Trier par"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:280
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:281
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:111
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:166
+msgid "Order by custom"
+msgstr "Tri personnalisé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:282
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:112
+msgid "Categories are displayed according to the order of their selection in the input fields."
+msgstr "Les catégories sont affichées selon l’ordre de leur sélection dans les champs de saisie."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:231
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:65
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:34
+msgid "Show hierarchical"
+msgstr "Montrer la hiérarchie"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:316
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:292
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:133
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:177
+msgid "Show count"
+msgstr "Afficher le nombre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:310
+msgid "Hide categories without products"
+msgstr "Masquer les catégories sans produit"
+
+#: modules/woofilters/models/woofilters.php:52
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:328
+msgid "Product categories"
+msgstr "Catégories de produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:372
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:206
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:234
+msgid "Exclude terms ids"
+msgstr "Exclure les éléments par identifiant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:397
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:77
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:383
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:217
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:264
+msgid "Show search"
+msgstr "Afficher la recherche"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:412
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:234
+msgid "Hide child"
+msgstr "Masquer les enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:188
+msgid "Hide tags without products"
+msgstr "Masquer les étiquettes sans produit"
+
+#: modules/woofilters/models/woofilters.php:60
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:206
+msgid "Product tags"
+msgstr "Étiquettes de produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:215
+msgid "No tags"
+msgstr "Aucune étiquette"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:398
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:265
+msgid "Show search."
+msgstr "Afficher la recherche."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:3
+msgid "Select attribute"
+msgstr "Sélectionner l’attribut"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:291
+msgid "Hide attributes without products"
+msgstr "Masquer les attributs sans produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:353
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:245
+msgid "Logic"
+msgstr "Logique"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:376
+msgid "Don't sort"
+msgstr "Ne pas trier"
+
+#: modules/woofilters/models/woofilters.php:68
+msgid "Attribute"
+msgstr "Attribut"
+
+#: modules/woofilters/models/woofilters.php:75
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/woofilters/models/woofilters.php:82
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersFeatured.php:28
+msgid "Featured"
+msgstr "Mis en avant"
+
+#: modules/woofilters/models/woofilters.php:89
+msgid "On sale"
+msgstr "Promotion"
+
+#: modules/woofilters/models/woofilters.php:96
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:42
+msgid "Stock status"
+msgstr "État du stock"
+
+#: modules/woofilters/models/woofilters.php:238
+msgid "In Stock"
+msgstr "En stock"
+
+#: modules/woofilters/models/woofilters.php:239
+msgid "Out of Stock"
+msgstr "Épuisé"
+
+#: modules/woofilters/models/woofilters.php:240
+msgid "On Backorder"
+msgstr "En rupture de stock"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:84
+msgid "Additional text for 1-4"
+msgstr "Texte additionnel pour 1-4"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:91
+msgid "and up"
+msgstr "et plus"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:107
+msgid "5 only"
+msgstr "5 seulement"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:516
+msgid "Filter"
+msgstr "Filtrer"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:557
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:683
+msgid "Clear"
+msgstr "Effacer"
+
+#: modules/woofilters/views/woofilters.php:852
+msgid "clear"
+msgstr "effacer"
+
+#: modules/woofilters/models/woofilters.php:30
+msgid "price"
+msgstr "prix"
+
+#: modules/woofilters/views/woofilters.php:1125
+msgid "Price range filter is empty. Please setup filter correctly."
+msgstr "L’intervalle de prix du filtre est vide. Veuillez remplir correctement le filtre."
+
+#: modules/woofilters/models/woofilters.php:38
+msgid "price range"
+msgstr "intervalle de prix"
+
+#: modules/woofilters/models/woofilters.php:46
+msgid "sort by"
+msgstr "trier par"
+
+#: modules/woofilters/models/woofilters.php:53
+msgid "category"
+msgstr "catégorie"
+
+#: modules/woofilters/models/woofilters.php:254
+msgid "Search ..."
+msgstr "Rechercher…"
+
+#: modules/woofilters/models/woofilters.php:61
+msgid "tag"
+msgstr "étiquette"
+
+#: modules/woofilters/models/woofilters.php:76
+msgid "author"
+msgstr "auteur"
+
+#: modules/woofilters/models/woofilters.php:90
+msgid "on sale"
+msgstr "promotion"
+
+#: modules/woofilters/models/woofilters.php:97
+msgid "stock status"
+msgstr "état du stock"
+
+#: modules/woofilters/models/woofilters.php:104
+msgid "rating"
+msgstr "note"
+
+#: modules/woofilters_widget/views/tpl/form.php:3
+msgid "Select filter"
+msgstr "Sélectionner le filtre"
+
+#: modules/woofilters_widget/views/woofilters_widget.php:20
+msgid "You have no filters"
+msgstr "Vous n’avez aucun filtre"
+
+#: modules/woofilters/models/woofilters.php:133
+#: modules/woofilters/models/woofilters.php:150
+msgid "brand"
+msgstr "marque"
+
+#. Description of the plugin
+#: woo-product-filter.php
+msgid "Filter products in your store in most efficient way"
+msgstr "Filtre les produits sur votre boutique de la façon la plus efficace"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:413
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:235
+msgid "Hide child taxonomy"
+msgstr "Masquer les taxonomies enfants."
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:144
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:157
+msgid "Preview"
+msgstr "Prévisualisation"
+
+#: modules/woofilters/views/tpl/woofiltersEditAdmin.php:68
+msgid "Using short code display the filter and products in the desired place of the template."
+msgstr "En utilisant un code court, vous pouvez afficher le filtre et les produits à l’endroit souhaité du modèle."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:693
+msgid "Automatically recount product by selected filters (If product category loading slowly - Disable this function)."
+msgstr "Recompter automatiquement les produits selon les filtres sélectionnés (Si la catégorie de produit se charge lentement, désactivez cette fonction)."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:22
+msgid "Choose page for filter."
+msgstr "Choisir la page pour le filtre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:209
+msgid "Choose where display filter."
+msgstr "Choisissez où afficher le filtre"
+
+#. translators: %s: plugin name
+#: modules/adminmenu/mod.php:14
+msgid "Cool WordPress plugins from woobewoo.com developers. I tried %s - and this was what I need! #woobewoo.com"
+msgstr "Des plugins WordPress sympas réalisés par les développeurs de woobewoo.com. J’ai essayé %s - et c’était ce dont j’avais besoin! #woobewoo.com"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:43
+msgid "Couldn't get the plugin to work"
+msgstr "Je n’arrive pas à faire fonctionner le plugin"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:7
+msgid "Depending on whether you need one or several categories to be available at the same time, you may show your categories list as checkbox or dropdown."
+msgstr "Selon que vous avez besoin d’une ou de plusieurs catégories en même temps, vous pouvez afficher votre liste de catégories sous forme de case à cocher ou de liste déroulante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:207
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:47
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:236
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersInStock.php:27
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:64
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:26
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:35
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:108
+msgid "Dropdown first option text."
+msgstr "Texte de la première entrée de la liste déroulante."
+
+#: modules/promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr "Obtenez le pack de plugins aujourd’hui et économisez plus de 80%"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:72
+msgid "I no longer need the plugin"
+msgstr "Je n’ai plus besoin du plugin"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:61
+msgid "If it's possible, specify plugin name"
+msgstr "Si c’est possible, indiquez le nom du plugin"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:65
+msgid "If this option is enabled, press the \"Setup\" button and customize price range settings. Increase or decrease the number of steps and set different values for each step."
+msgstr "Si activée, vous pouvez cliquer sur le bouton « Configuration » et personnaliser vos réglages d'intervalle de prix. Vous pouvez augmenter ou diminuer le nombre de pas et définir des valeurs différentes pour chaque pas."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:42
+msgid "If this option is enabled, set the price range settings automatically."
+msgstr "Si cette option est activée, vous pouvez définir automatiquement les paramètres de la fourchette de prix."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:670
+msgid "If this option is enabled, the \"< clear\" links appears at the page next to the filter block titles. The presets of this filter block will be deleted after clicking on the link."
+msgstr "Si cette option est activée, les liens \"< Effacer\" apparaissent sur la page à côté des titres des blocs de filtre. Les préréglages de ce bloc de filtre seront supprimés après avoir cliqué sur le lien."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:544
+msgid "If this option is enabled, the \"Clear\" button appears at the page. All filter presets will be removed after pressing the button."
+msgstr "Si cette option est activée, le bouton \"Effacer\" apparaît sur la page. Tous les préréglages de filtre seront supprimés après avoir appuyé sur le bouton."
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:36
+msgid "If you setup you're PopUp properly, and it still doesn't show on the page - there are can be conflict with your WordPress theme or other plugins. %s with the URL of the webpage you add popup and screenshots / text of the error messages, if you have one - and we will help you resolve your issue."
+msgstr "Si vous paramétrez correctement votre popup et qu’il ne s’affiche toujours pas sur la page - il peut y avoir un conflit avec votre thème WordPress ou d’autres extensions. %s avec l’URL de la page web où vous avez ajouté la popup et des captures d’écran/le texte des messages d’erreurs, si vous en avez - et nous vous aiderons à résoudre votre problème/"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:767
+msgid "Lets checked terms will be on the top."
+msgstr "Les éléments sélectionnés seront déplacés en haut."
+
+#: modules/promo/mod.php:175
+msgid "Login/Registration"
+msgstr "Connexion/Inscription"
+
+#. translators: %s: label
+#: modules/promo/mod.php:47
+msgid "More then eleven days with our %s plugin - Congratulations!"
+msgstr "Plus de onze jours avec notre plugin %s - Félicitations!"
+
+#: modules/promo/controller.php:47
+msgid "Please enter valid email address"
+msgstr "Veuillez saisir une adresse e-mail valide"
+
+#: modules/promo/mod.php:230
+msgid "Report a bug"
+msgstr "Reporter un bug"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPriceRange.php:51
+msgid "Set the value of prise increase step. The default value is set to 20. All the steps are equal. When setting the step, please note that the number of elements in the list should not exceed 100, otherwise the step setting will be reset and automatically calculated."
+msgstr "Définissez la valeur de pas d’augmentation du prix. La valeur par défaut est 20. Tous les pas sont égaux. Quand vous définissez le pas, veuillez noter que le nombre d’éléments dans la liste ne devrait pas d&passer 100, sans quoi le paramètre de pas sera réinitialisé et calculé automatiquement."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:669
+msgid "Show Clear Block"
+msgstr "Montrer le bloc Effacer"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:293
+msgid "Show count display the number of products that have the appropriate parameter (attribute, category, tag)."
+msgstr "\"Afficher le nombre\" affiche le nombre de produits qui ont le paramètre approprié (attribut, catégorie, étiquette)."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:317
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersPerfectBrand.php:134
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:178
+msgid "Show count display the number of products that have the appropriate parameter."
+msgstr "\"Afficher le nombre\" affiche le nombre de produits qui ont le paramètre approprié."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:78
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:95
+msgid "Show search display the bar for searching by author name in the filter."
+msgstr "Affiche la barre de recherche par nom d’auteur dans le filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:384
+msgid "Show search display the bar for searching by category name in the filter."
+msgstr "Affiche la barre de recherche par nom de catégorie dans le filtre."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAuthor.php:22
+msgid "Show your roles list as checkbox or dropdown."
+msgstr "Affichez votre liste de rôle en tant que cases à cocher ou liste déroulante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:167
+msgid "Tags are displayed according to the order of their selection in the input fields."
+msgstr "Les étiquettes sont affichées selon l’ordre de leur sélection dans les champs de saisie."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:766
+msgid "Checked Items To The Top"
+msgstr "Éléments sélectionnés en premier"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:208
+msgid "Display Filter On"
+msgstr "Afficher le filtre sur"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1052
+msgid "Enable Filter Icon On Load"
+msgstr "Appliquer les paramètres de préchargement à tous les filtres."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1145
+msgid "Enable Overlay"
+msgstr "Activer la superposition"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:926
+msgid "Hide Filter By Title Click"
+msgstr "Masquer le filtre en cliquant sur le titre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:13
+msgid "Main Settings"
+msgstr "Réglages généraux"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:692
+msgid "Recount Products By Selected Filter"
+msgstr "Recompter les produits par filtre sélectionné"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:797
+msgid "Set No Products Found Text"
+msgstr "Définir le texte \"Aucun produit trouvé\""
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:543
+msgid "Show Clear All Button"
+msgstr "Montrer le bouton Effacer tout"
+
+#. translators: 1: label 2: max length
+#: classes/validator.php:32
+msgid "Invalid length for %1$s, max length is %2$s"
+msgstr "Longueur non valide pour %1$s, la longueur maximale est %2$s"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersRating.php:16
+msgid "Depending on whether you need one or several attributes to be available at the same time, show your attributes list as checkbox or dropdown."
+msgstr "Si vous avez besoin d’un ou plusieurs attributs simultanément, vous pouvez afficher la liste d’attributs sous forme de cases à cocher/liste déroulante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:7
+msgid "Depending on whether you need one or several tags to be available at the same time, show tags list as checkbox or dropdown."
+msgstr "Si vous avez besoin d’une ou de plusieurs étiquettes simultanément, vous pouvez afficher votre liste d’étiquettes sous forme de cases à cocher/liste déroulante."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:582
+msgid "Top"
+msgstr "Haut"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:583
+msgid "Bottom"
+msgstr "Bas"
+
+#. Plugin URI of the plugin
+#: woo-product-filter.php
+msgid "https://woobewoo.com/product/woocommerce-filter/"
+msgstr "https://woobewoo.com/product/woocommerce-filter/"
+
+#. Author URI of the plugin
+#: woo-product-filter.php
+msgid "https://woobewoo.com/"
+msgstr "https://woobewoo.com/"
+
+#: modules/promo/mod.php:50
+msgid "And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your PopUps. This is small step for you, but a big help for us! Sure, if you don't want - just skip this and continue enjoy our software!"
+msgstr "Et aujourd’hui, si vous le souhaitez, - vous pouvez nous aider. C’est vraiment simple - vous pouvez simplement ajouter un petit lien promotionnel à notre site sous vos PopUps. C’est un petit pas pour vous, mais une grande aide pour nous ! Bien sûr, si vous ne le souhaitez pas - passer ce message et continuez à profiter de notre logiciel !"
+
+#: modules/promo/views/tpl/pluginDeactivation.php:57
+msgid "I found a better plugin"
+msgstr "J’ai trouvé une meilleure extension"
+
+#: modules/woofilters/models/woofilters.php:83
+msgid "featured"
+msgstr "mis en avant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:36
+msgid "Slider"
+msgstr "Diaporama"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:724
+msgid "Keep Min/Max Price By Reload"
+msgstr "Conserver le prix min/max en rechargeant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:398
+msgid "Unfolding collapsed"
+msgstr "Repliage cassé"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:251
+msgid "Hides all parent attributes of any level, leaving only the end children"
+msgstr "Masque tous les attributs parents de n’importe quel niveau, ne laissant que les enfants finaux."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:241
+msgid "Show only attributes children."
+msgstr "Afficher uniquement les attributs enfants."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:240
+msgid "Hide attributes parent"
+msgstr "Masquer les attributs du parent"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:269
+msgid "If parent filter attribute was selected then extend selection to child attributes."
+msgstr "Si l’attribut de filtre parent a été sélectionné, étendez la sélection aux attributs enfants."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:232
+msgid "Show paternal and subsidiary attributes. If you display only some attributes, make sure that the parent attributes are selected."
+msgstr "Afficher les attributs de paternité et subsidiaires. Si vous n’affichez que certains attributs, assurez-vous que les attributs parents sont sélectionnés."
+
+#: modules/woofilters/models/woofilters.php:118
+msgid "number"
+msgstr "nombre"
+
+#: modules/woofilters/models/woofilters.php:117
+msgid "Search by Number"
+msgstr "Recherche par nombre"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:653
+msgid "When forming filter blocks by loading the page without filtering, all products will be analyzed."
+msgstr "Lors de la formation de blocs de filtre en chargeant la page sans filtrage, tous les produits seront analysés."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:652
+msgid "By default сreate filters for all products"
+msgstr "Par défaut, sélectionnez des filtres pour tous les produits."
+
+#: modules/options/views/tpl/optionsAdminPage.php:72
+msgid "Select Filters (You can change them later)"
+msgstr "Choisissez Filtres (vous pourrez les modifier ultérieurement)"
+
+#: modules/options/views/tpl/optionsAdminPage.php:68
+#: modules/options/views/tpl/optionsAdminPage.php:97
+msgid "Filter name"
+msgstr "Nom du filtre"
+
+#: modules/options/views/tpl/optionsAdminPage.php:64
+msgid "Add new product filter"
+msgstr "Ajouter un nouveau filtre de produit"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:404
+msgid "Сollapse all when deleting"
+msgstr "Tout replier à la suppression"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:307
+msgid "Hide filter with single item"
+msgstr "Masquer le filtre avec un seul élément"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:308
+msgid "Option allows you to hide the filter section if previously set filters result in only one element in the section."
+msgstr "L’option vous permet de masquer la section de filtre si les filtres précédemment définis n’aboutissent qu’à un seul élément de la section."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:458
+msgid "Don't allow redirect if there are no products"
+msgstr "Ne pas autoriser la redirection s’il n’y a pas de produits"
+
+#. translators: %s: plugin name
+#: functions.php:338
+msgid "In this way you will have full and upgraded PRO version of %s."
+msgstr "De cette façon, vous disposerez d’une version PRO complète et mise à niveau de %s."
+
+#. translators: 1: plugin name 2: plugin version
+#: classes/frame.php:238
+msgid "Current version of Free (Base) plugin %1$s requires version of WBW Product Filter PRO plugin at least %2$s."
+msgstr "La version actuelle de l'extension Gratuite (Base) nécessite %1$s une version de WBW Product Filter PRO d’au moins %2$s."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:459
+msgid "In some themes, if the product is not found, the system redirects to a special page. This option will not allow to make a redirect in this case, but will display a phrase stating that the products were not found."
+msgstr "Dans certains thèmes, si le produit n’est pas trouvé, le système redirige vers une page spéciale. Cette option ne permettra pas de faire de redirection dans ce cas, mais affichera une phrase indiquant que les produits n’ont pas été trouvés."
+
+#. translators: %s: plugin name
+#: functions.php:345
+msgid "The plugin %s started indexing the product database metadata. If you have a large database, this may take a while, but in the future it will significantly increase your filtering speed."
+msgstr "L’extension %s a commencé à indexer les métadonnées de la base de données du produit. Si vous avez une grande base de données, cela peut prendre un certain temps, mais à l’avenir, cela augmentera considérablement votre vitesse de filtrage."
+
+#. translators: 1: plugin name 2: plugin version
+#: functions.php:336
+msgid "Please install latest PRO version of %1$s plugin (requires at least %2$s). "
+msgstr "Veuillez installer la dernière version PRO de l’extension %1$s (nécessite au moins %2$s). "
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:136
+msgid "The filter will be displayed on all child brands"
+msgstr "Le filtre sera affiché sur toutes les marques enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:133
+msgid "Include Child Brands"
+msgstr "Inclure les marques enfants"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:40
+msgid "Specific Brand Page"
+msgstr "Page de marque spécifique"
+
+#: modules/options/mod.php:290
+msgid "Disable plugin sorting"
+msgstr "Désactiver l’extension de tri"
+
+#: modules/meta/mod.php:95
+msgid "Disable automatic calculation of index tables after product stock changes."
+msgstr "Désactiver le calcul automatique des tables d’index après les variations de stock de produits."
+
+#: modules/meta/mod.php:83
+msgid "Add a parameter &inCron=1 if you need to run in the background (via cron)."
+msgstr "Ajoutez un paramètre &inCron=1 si vous avez besoin de l’exécuter en arrière-plan (via cron)."
+
+#: modules/meta/mod.php:82
+msgid "There is a way to start indexing with a URL: "
+msgstr "Il existe un moyen de commencer l'indexation avec une URL : "
+
+#: modules/options/mod.php:291
+msgid "If this option is enabled, then the Product Filter by WBW will not use its sorting functionality. Woocommerce or other plugins sorting algorithms will be used."
+msgstr "Si cette option est activée, le filtre de produits par WBW n’utilisera pas sa fonctionnalité de tri. Woocommerce ou d’autres algorithmes de tri d’extensions seront utilisés."
+
+#: modules/meta/mod.php:96
+msgid "This can be useful when changing inventory status in bulk. Then after changing, just do a full recalculation of the index tables once by clicking the button above."
+msgstr "Cela peut être utile lors de la modification de l’état des stocks en bloc. Ensuite, après avoir modifié, il suffit de recalculer une fois les tables d’index en cliquant sur le bouton ci-dessus."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:161
+msgid "Attention! Do not enable this option if you are not sure. It is worth using if your theme loads the Fontawesome library on its own, or if you plan to change filter icons to custom ones with CSS."
+msgstr "Attention ! N’activez pas cette option si vous n’êtes pas sûr. Il vaut la peine de l’utiliser si votre thème charge la bibliothèque Fontawesome par lui-même, ou si vous envisagez de changer les icônes de filtre en icônes personnalisées avec CSS."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:160
+msgid "Don't load Fontawesome"
+msgstr "Ne pas charger FontAwesome"
+
+#: modules/overview/views/tpl/overviewTabContent.php:119
+msgid "More plugins by WBW"
+msgstr "Plus d’extensions par WBW"
+
+#. translators: 1: plugin name 2: plugin version
+#: classes/frame.php:238 functions.php:332 functions.php:341
+msgid "Product Filter by WBW"
+msgstr "Product Filter by WBW"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:832
+msgid "When forming filter blocks with attributes for variable products, only variation attributes will be taken into account. This will affect the displayed number of products in the filter elements and hiding elements without products."
+msgstr "Lors de la formation de blocs de filtres avec des attributs pour des produits variables, seuls les attributs de variation seront pris en compte. Cela affectera le nombre de produits affichés dans les éléments filtrants et les éléments de masquage sans produits."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:831
+msgid "Form attribute filters by variations"
+msgstr "L’attribut de formulaire filtre par variantes"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:343
+msgid "Selected attributes will be marked as default and hidden on frontend. "
+msgstr "Les attributs choisis seront marqués comme étant par défaut et cachés sur le site en ligne. "
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersTags.php:207
+msgid "Select product tags to be displayed on site from the list. Press \"Ctrl\" + \"a\" for checking all tags."
+msgstr "Choisir les étiquettes de produit à afficher sur le site dans la liste. Appuyez sur « Ctrl » + « a » pour vérifier toutes les étiquettes."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersCategory.php:329
+msgid "Select product categories to be displayed on site from the list. Press \"Ctrl\" + \"a\" for checking all categories."
+msgstr "Choisir les catégories de produits à afficher sur le site dans la liste. Appuyez sur « Ctrl » + « a » pour vérifier toutes les catégories."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabFiltersAttribute.php:328
+msgid "Select attributes to be displayed on site from the list. Press \"Ctrl\" + \"a\" for checking all names."
+msgstr "Choisir les attributs à afficher sur le site dans la liste. Appuyez sur « Ctrl » + « a » pour vérifier tous les noms."
+
+#: modules/woofilters/views/tpl/woofiltersAdmin.php:40
+msgid "Shortcode"
+msgstr "Code court"
+
+#: modules/options/mod.php:285
+msgid "Disable clearing WP Rocket cache by saving filter settings"
+msgstr "Désactive l’effacement du cache WP Rocket lors de la sauvegarde des réglages de filtres"
+
+#: modules/options/mod.php:284
+msgid "Disable clearing WP Rocket cache"
+msgstr "Désactiver l’effacement du cache WP Rocket"
+
+#: modules/meta/mod.php:121
+msgid "Index tables optimization will start at the selected time according to the schedule"
+msgstr "L’optimisation des tables d’index commencera à l’heure choisie dans la planification"
+
+#: modules/meta/mod.php:120
+msgid "Start optimization on a schedule"
+msgstr "Démarrer l’optimisation selon un calendrier"
+
+#: modules/meta/mod.php:114
+msgid "Start index tables optimization"
+msgstr "Lancer l'optimisation des tables d'index"
+
+#: modules/meta/mod.php:115
+msgid "Sometimes index tables take up more space than they should, and product filtering takes longer than they should. Start optimizing your index tables to defragment them and rebuild your data in the most efficient way."
+msgstr "Parfois les tables d’index occupe plus d’espace qu’elles ne devraient, et le filtrage des produits prend plus longtemps que nécessaire. Lancez l’optimisation des tables d’index pour les défragmenter et reconstruire les données de façon plus efficace."
+
+#: modules/overview/views/tpl/overviewTabContent.php:158
+msgid "MORE"
+msgstr "PLUS"
+
+#: modules/overview/views/tpl/overviewTabContent.php:150
+msgid "Free Currency Switcher WordPress plugin by WBW allows the customers of your WooCommerce store to switch products prices easily to any currencies and get their rates converted in real-time! You can convert any currency you require and add as many currencies as you need."
+msgstr "L’extension Currency Switcher WordPress plugin by WBW permet aux internautes de votre boutique WooCommerce de changer facilement les prix des produits dans n’importe quelle monnaie et d’obtenir leurs taux convertis en temps réel ! Vous pouvez convertir n’importe quelle devise dont vous avez besoin et ajouter autant de devises que vous le souhaitez."
+
+#: modules/overview/views/tpl/overviewTabContent.php:145
+msgid "Currency Switcher"
+msgstr "Sélecteur de monnaies"
+
+#: modules/overview/views/tpl/overviewTabContent.php:136
+msgid "Get WooCommerce Product Table and start listing your products the right way. A responsive effective table of the selected products will be created automatically due to your requirements. Add a caption, sorting, searching, pagination, and other features to your product table in one click."
+msgstr "Installez WooCommerce Product Table et commencez à lister vos produits de la bonne manière. Un tableau responsif des produits choisis sera créée automatiquement selon vos besoins. Ajoutez à votre table de produit, en un clic, un libellé, un tri, une recherche, une pagination et d'autres fonctionnalités."
+
+#: modules/overview/views/tpl/overviewTabContent.php:131
+msgid "Product Table"
+msgstr "Tableau de produit"
+
+#: modules/overview/views/tpl/overviewTabContent.php:85
+msgid "Custom Development"
+msgstr "Développement personnalisé"
+
+#: modules/overview/views/tpl/overviewTabContent.php:78
+msgid "Join our community on the wordpress forum and post your question. In addition to our expert constantly on duty at the forum, you can share your experience or learn new experience for yourself from our regular users."
+msgstr "Rejoignez notre communauté sur le forum WordPress et posez vos questions. En plus de nos experts actifs sur le forum, vous pourrez partager votre expérience et bénéficier de l’expérience et les usages d’autres utilisateurs/utilisatrices."
+
+#: modules/overview/views/tpl/overviewTabContent.php:63
+msgid "FAQ"
+msgstr "FAQ"
+
+#: modules/overview/views/tpl/overviewTabContent.php:58
+msgid "Solved Issues"
+msgstr "Problèmes résolus"
+
+#: modules/overview/views/tpl/overviewTabContent.php:53
+msgid "New Features"
+msgstr "Nouvelles fonctionnalités"
+
+#: modules/overview/views/tpl/overviewTabContent.php:27
+msgid "Documentation"
+msgstr "Documentation"
+
+#: modules/overview/views/tpl/overviewTabContent.php:18
+msgid "You'll find instant answers to almost any question by searching our documentation. And if you still need help, please contact us directly."
+msgstr "Vous trouverez instantanément des réponses à pratiquement toutes vos questions en consultant la documentation. Et si vous avez toujours besoin d’aide, veuillez nous contacter directement."
+
+#: modules/overview/views/tpl/overviewTabContent.php:15
+msgid "Need help?"
+msgstr "Besoin d'aide ?"
+
+#: modules/overview/views/tpl/overviewTabContent.php:6
+msgid "Welcome to WBW Product Filter"
+msgstr "Bienvenue sur WBW Product Filter"
+
+#: modules/overview/views/tpl/overviewFeedback.php:69
+#: modules/overview/views/tpl/overviewTabContent.php:106
+msgid "SEND"
+msgstr "ENVOYER"
+
+#: modules/overview/views/tpl/overviewFeedback.php:67
+msgid "Describe ideas and problems"
+msgstr "Décrivez vos idées et problèmes"
+
+#: modules/overview/views/tpl/overviewFeedback.php:35
+msgid "Rate the plugin"
+msgstr "Évaluez l’extension"
+
+#: modules/overview/views/tpl/overviewFeedback.php:23
+msgid "SUBSCRIBE"
+msgstr "S'ABONNER"
+
+#: modules/overview/views/tpl/overviewFeedback.php:66
+msgid "Enter your email"
+msgstr "Saisir votre e-mail"
+
+#: modules/overview/models/overview.php:98
+msgid "Describe ideas and problems, please"
+msgstr "Veuillez décrire vos idées et problèmes"
+
+#: modules/overview/models/overview.php:35
+#: modules/overview/models/overview.php:61
+#: modules/overview/models/overview.php:93
+msgid "Invalid email format"
+msgstr "Format d’e-mail non valide"
+
+#: modules/overview/mod.php:29
+msgid "Overview"
+msgstr "Vue générale"
+
+#: modules/options/mod.php:126
+msgid "Go PRO"
+msgstr "Passer à PRO"
+
+#: modules/adminmenu/mod.php:57
+msgid "Upgrade To Pro"
+msgstr "Passer à la version PRO"
+
+#: modules/overview/views/tpl/overviewTabContent.php:122
+msgid "WBW it’s the Ready-made NoCode WooCommerce store solutions from top WordPress developers"
+msgstr "WBW c’est les solutions de boutique WooCommerce NoCode prêtes à l’emploi des meilleurs devs WordPress"
+
+#: modules/overview/views/tpl/overviewTabContent.php:90
+msgid "We have expanded our development team, and now we are glad to offer you custom web and app development solutions. We offer a full range of web app development services to suit your needs. Be assured, we will cope with any task."
+msgstr "Nous avons étoffé notre équipe de développement et nous sommes heureux de vous offrir maintenant nos solutions de développement applicatif et web. Nous offrons une large palette de services de développement web applicatifs pour répondre à vos besoins. Soyez rassurés, nous nous occuperons de tout."
+
+#: modules/overview/views/tpl/overviewFeedback.php:63
+msgid "Please help us improve our products and features. Describe what exactly you didn't like?"
+msgstr "Aidez-nous à améliorer nos produits et fonctionnalités. Décrivez précisément ce que souhaiteriez ?"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:261
+msgid "The filter will be located in a popup."
+msgstr "Le filtre sera affiché dans la fenêtre modale."
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:260
+msgid "Use Floating Modе"
+msgstr "Utiliser le mode flottant"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabDesign.php:251
+msgid "Floating Modе Options"
+msgstr "Options du mode flottant"
+
+#. Author of the plugin
+#: woo-product-filter.php
+msgid "woobewoo"
+msgstr "woobewoo"
+
+#: modules/woofilters/views/tpl/woofiltersEditTabOptions.php:1102
+msgid "Select the animated loader, which appears when filtering results are loading."
+msgstr "Choisir le chargeur animé, qui apparaît lorsque les résultats du filtrage sont en cours de chargement."
+
+#: modules/overview/views/tpl/overviewTabContent.php:73
+msgid "WordPress Forum"
+msgstr "Forums WordPress"

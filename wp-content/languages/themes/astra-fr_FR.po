@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Astra package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-22 12:46:05+0000\n"
+"PO-Revision-Date: 2026-03-06 12:23:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6550,17 +6550,9 @@ msgstr "Seau"
 msgid "Buffer"
 msgstr "Tampon"
 
-#: assets/svg/logo-svg-icons/icons-v6-0.php:3084
-msgid "Bug"
-msgstr "Insecte"
-
 #: assets/svg/logo-svg-icons/icons-v6-0.php:3098
 msgid "Bug Slash"
 msgstr "Tronçonneuse d’insectes"
-
-#: assets/svg/logo-svg-icons/icons-v6-0.php:3111
-msgid "Bugs"
-msgstr "Insectes"
 
 #: assets/svg/logo-svg-icons/icons-v6-0.php:3129
 msgid "Building"
@@ -8613,6 +8605,14 @@ msgstr "Flèche de droite de cercle de construction"
 #: assets/svg/logo-svg-icons/icons-v6-0.php:4097
 msgid "Paypal Credit Card"
 msgstr "Carte bancaire Paypal"
+
+#: assets/svg/logo-svg-icons/icons-v6-0.php:3084
+msgid "Bug"
+msgstr "Bogue"
+
+#: assets/svg/logo-svg-icons/icons-v6-0.php:3111
+msgid "Bugs"
+msgstr "Bogues"
 
 #: inc/customizer/configurations/builder/header/configs/account.php:167
 msgid "Choose if you want to display Icon or Avatar with the Text selected Profile Type."

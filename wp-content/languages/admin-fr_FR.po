@@ -41,6 +41,22 @@ msgstr "Europe/Paris"
 msgid "WordPress 6.9 includes a broad set of performance enhancements. A better <abbr>LCP</abbr> (Largest Contentful Paint) metric is achieved through improved loading of conditional and inlined stylesheets, script loading with fetchpriority support, and additional core optimizations. Editor advances include fixes for layout shifts caused by the Video block and faster loading of the terms selector."
 msgstr "WordPress 6.9 comprend un vaste ensemble d’améliorations de performances. De meilleurs résultats sur la métrique <abbr>LCP</abbr> (Largest Contentful Paint) sont obtenus grâce à un chargement amélioré des feuilles de style conditionnelles et en ligne, et grâce au chargement des scripts avec prise en charge de l’attribut fetchpriority et à des optimisations du cœur complémentaires. Les avancées de l’éditeur comprennent des correctifs pour les modifications de mise en page causés par le bloc Vidéo et un chargement plus rapide du sélecteur de termes."
 
+#: wp-admin/js/user-profile.js:361 wp-admin/js/user-profile.js:385
+msgid "Caps lock is on."
+msgstr "Le verrouillage majuscule est activé."
+
+#: wp-admin/js/tags.js:75
+msgid "The selected tag has been deleted."
+msgstr "L’étiquette sélectionnée a été supprimée."
+
+#: wp-admin/js/nav-menu.js:1818
+msgid "%d Search Results Found"
+msgstr "%d résultats de recherche trouvés"
+
+#: wp-admin/js/nav-menu.js:1427
+msgid "Search results cleared"
+msgstr "Résultats de recherche effacés"
+
 #: wp-admin/theme-editor.php:257
 msgid "It is likely that this unminified stylesheet will not be served to visitors."
 msgstr "Il est probable que cette feuille de style non minifiée ne sera pas fournie aux visiteurs."
@@ -173,6 +189,19 @@ msgstr "Notes"
 #: wp-admin/about.php:97
 msgid "WordPress 6.9 introduces a more intuitive way to create content, together. Every detail is designed to fit your creative flow, from Notes that let you collaborate directly in the editor to a powerful Command Palette that helps you reach every part of your site."
 msgstr "WordPress 6.9 présente un moyen plus intuitif de créer du contenu, en parfaite collaboration. Chaque détail est conçu pour s’intégrer à votre flux créatif, depuis les Notes qui vous permettent désormais de collaborer directement dans l’éditeur jusqu’à une Palette de Commande puissante qui vous aide à atteindre n’importe quelle partie de l’administration de votre site."
+
+#: wp-admin/js/updates.js:2336
+msgid "An error occurred during the update process. Please try again."
+msgstr "Une erreur s’est produite lors de la mise à jour. Veuillez réessayer."
+
+#: wp-admin/js/theme-plugin-editor.js:229
+msgid "An error occurred while saving your changes. Please try again. If the problem persists, you may need to manually update the file via FTP."
+msgstr "Une erreur s’est produite lors de l’enregistrement de vos modifications. Veuillez réessayer. Si le problème persiste, il pourra être nécessaire de mettre à jour le fichier manuellement via FTP."
+
+#: wp-admin/js/common.js:431 wp-admin/js/dashboard.js:38
+#: wp-admin/js/postbox.js:474
+msgid "Screen Options updated."
+msgstr "Mise à jour des options d’écran."
 
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: The PHP extension name needed.
@@ -352,6 +381,24 @@ msgstr "Responsable de la version mineure"
 #: wp-admin/credits.php:145
 msgid "Release Coordination"
 msgstr "Coordination de la version"
+
+#. translators: 1: The current menu item number, 2: The total number of menu
+#. items.
+#. translators: 1: The current submenu item number, 2: The total number of
+#. submenu items.
+#: wp-admin/js/nav-menu.js:367 wp-admin/js/nav-menu.js:391
+msgctxt "part of a total number of menu items"
+msgid "%1$s of %2$s"
+msgstr "%1$s sur %2$s"
+
+#: wp-admin/js/nav-menu.js:322
+msgctxt "menu item without a parent in navigation menu"
+msgid "No Parent"
+msgstr "Aucun parent"
+
+#: wp-admin/js/user-profile.js:460
+msgid "Application password has been copied to your clipboard."
+msgstr "Le mot de passe d’application a été copié dans votre presse-papier."
 
 #: wp-admin/plugins.php:613
 msgid "If a dependent plugin is missing some dependencies, its activation button will be disabled until the required dependencies are activated."
@@ -638,6 +685,83 @@ msgctxt "patterns menu item"
 msgid "Patterns"
 msgstr "Compositions"
 
+#. translators: %s: Error string for a failed dependencies check.
+#: wp-admin/js/updates.js:2369
+msgid "Dependencies check failed: %s"
+msgstr "Échec de la vérification des dépendances : %s"
+
+#. translators: %s: The remaining number of plugins.
+#: wp-admin/js/updates.js:1466
+msgctxt "plugin/plugins"
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s élément"
+msgstr[1] "%s éléments"
+
+#. translators: %s: Plugin name.
+#: wp-admin/js/updates.js:1191
+msgctxt "plugin"
+msgid "%s activation failed"
+msgstr "Activation échouée : %s"
+
+#: wp-admin/js/updates.js:1188
+msgid "Activation failed."
+msgstr "Activation échouée."
+
+#: wp-admin/js/updates.js:1131
+msgid "Activation completed successfully."
+msgstr "Activation effectuée avec succès."
+
+#: wp-admin/js/updates.js:1124
+msgctxt "plugin"
+msgid "Activated!"
+msgstr "Activé !"
+
+#. translators: %s: Plugin name.
+#: wp-admin/js/updates.js:1102
+msgctxt "plugin"
+msgid "Activating %s"
+msgstr "Activation de %s"
+
+#: wp-admin/js/updates.js:1099
+msgid "Activating..."
+msgstr "Activation…"
+
+#: wp-admin/js/updates.js:1089
+msgid "Activating... please wait."
+msgstr "Activation… veuillez patienter."
+
+#. translators: %s: Error string for a failed activation.
+#: wp-admin/js/updates.js:1040 wp-admin/js/updates.js:1202
+#: wp-admin/js/updates.js:2374
+msgid "Activation failed: %s"
+msgstr "Activation échouée : %s"
+
+#. translators: 1: Plugin name, 2. The reason the plugin cannot be activated.
+#: wp-admin/js/updates.js:1028
+msgctxt "plugin"
+msgid "Cannot activate %1$s. %2$s"
+msgstr "Activation de %1$s impossible. %2$s"
+
+#: wp-admin/js/updates.js:965
+msgid "Plugin dependencies check completed successfully."
+msgstr "La vérification des dépendances de l‘extension a bien été effectuée."
+
+#: wp-admin/js/updates.js:938
+msgid "Checking plugin dependencies... please wait."
+msgstr "Vérification des dépendances de l‘extension en cours... Veuillez patienter."
+
+#. translators: %d: Number of search results found.
+#: wp-admin/js/tags-suggest.js:145
+msgid "%d result found. Use up and down arrow keys to navigate."
+msgid_plural "%d results found. Use up and down arrow keys to navigate."
+msgstr[0] "%d résultat. Utilisez les flèches haut et bas du clavier pour naviguer"
+msgstr[1] "%d résultats. Utilisez les flèches haut et bas du clavier pour naviguer"
+
+#: wp-admin/js/inline-edit-post.js:259
+msgid "Some selected posts have this category"
+msgstr "Certaines publications sélectionnées sont dans cette catégorie"
+
 #: wp-admin/options-general.php:191 wp-admin/options-general.php:197
 msgid "Change Site Icon"
 msgstr "Modifier l’icône du site"
@@ -799,6 +923,18 @@ msgstr "L’éditeur de blocs requiert JavaScript. Veuillez activer JavaScript d
 msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Editor plugin</a>."
 msgstr "L’éditeur de blocs requiert JavaScript. Veuillez activer JavaScript dans les paramètres de votre navigateur ou activez l’extension <a href=\"%s\">Classic Editor</a>."
 
+#: wp-admin/js/site-health.js:476
+msgid "Running additional tests... please wait."
+msgstr "Exécution de tests supplémentaires… veuillez patienter."
+
+#: wp-admin/js/site-health.js:473
+msgid "All site health tests have finished running. There are items that should be addressed."
+msgstr "Tous les tests de santé du site sont terminés. Certains points doivent être traités."
+
+#: wp-admin/js/site-health.js:470
+msgid "All site health tests have finished running. Your site is looking good."
+msgstr "Tous les tests de santé du site sont terminés. Votre site semble être en bon état."
+
 #: wp-admin/my-sites.php:81
 msgid "Add New Site"
 msgstr "Ajouter un site"
@@ -876,6 +1012,10 @@ msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 #: wp-admin/contribute.php:112 wp-admin/credits.php:66 wp-admin/credits.php:74
 msgid "https://make.wordpress.org/contribute/"
 msgstr "https://make.wordpress.org/contribute/"
+
+#: wp-admin/js/image-edit.js:1473
+msgid "Selected crop ratio exceeds the boundaries of the image. Try a different ratio."
+msgstr "Le ratio de recadrage sélectionné dépasse les limites de l’image. Essayez un ratio différent."
 
 #: wp-admin/update-core.php:1068
 msgid "Updates may take several minutes to complete. If there is no feedback after 5 minutes, or if there are errors please refer to the Help section above."
@@ -1495,6 +1635,10 @@ msgstr "Il s’agit de la version finale de WordPress %s"
 msgid "Site Editor"
 msgstr "Éditeur de site"
 
+#: wp-admin/js/post.js:1068
+msgid "URL Slug"
+msgstr "Slug de l’URL"
+
 #: wp-admin/users.php:66
 msgid "<strong>Send password reset</strong> sends the user an email with a link to set a new password."
 msgstr "<strong>Envoyer une réinitialisation de mot de passe</strong> envoie à l’utilisatrice ou l’utilisateur un e-mail contenant un lien pour définir un nouveau mot de passe."
@@ -1830,6 +1974,15 @@ msgstr "En savoir plus sur WordPress %s"
 #: wp-admin/includes/ajax-actions.php:1476
 msgid "Please type your comment text."
 msgstr "Veuillez saisir le texte de votre commentaire."
+
+#: wp-admin/js/inline-edit-post.js:297
+msgid "All selected items have been removed. Select new items to use Bulk Actions."
+msgstr "Tous les éléments sélectionnés ont été supprimés. Sélectionnez de nouveaux éléments pour utiliser les actions groupées."
+
+#. translators: %s: Post title.
+#: wp-admin/js/inline-edit-post.js:219
+msgid "Remove &#8220;%s&#8221; from Bulk Edit"
+msgstr "Retirer « %s » de l’action groupée"
 
 #: wp-admin/users.php:463 wp-admin/users.php:495
 msgid "You cannot remove users."
@@ -2365,6 +2518,10 @@ msgstr "Actuelle"
 msgid "Please activate the <a href=\"%s\">Link Manager plugin</a> to use the link manager."
 msgstr "Veuillez activer <a href=\"%s\">l’extension Link Manager</a> pour utiliser ce gestionnaire de lien."
 
+#: wp-admin/js/privacy-tools.js:317
+msgid "The suggested policy text has been copied to your clipboard."
+msgstr "Le texte de la politique proposée a été copié dans votre presse-papier."
+
 #: wp-admin/options-privacy.php:265
 msgid "Create a new Privacy Policy page"
 msgstr "Créer une nouvelle page de politique de confidentialité"
@@ -2762,6 +2919,42 @@ msgstr "Aller en haut"
 msgid "%s could not be located. Please try another nearby city. For example: Kansas City; Springfield; Portland."
 msgstr "La localisation de %s n’a pas fonctionné. Veuillez essayer une autre ville proche. Par exemple : Rennes, Strasbourg ou Grenoble."
 
+#: wp-admin/js/application-passwords.js:136
+msgid "All application passwords revoked."
+msgstr "Tous les mots de passe d’application ont été révoqués."
+
+#: wp-admin/js/application-passwords.js:116
+msgid "Are you sure you want to revoke all passwords? This action cannot be undone."
+msgstr "Confirmez-vous la révocation de tous les mots de passe ? Cette action ne peut être annulée."
+
+#: wp-admin/js/application-passwords.js:108
+msgid "Application password revoked."
+msgstr "Mot de passe d’application révoqué."
+
+#: wp-admin/js/application-passwords.js:85
+msgid "Are you sure you want to revoke this password? This action cannot be undone."
+msgstr "Confirmez-vous la révocation de ce mot de passe ? Cette action ne peut être annulée."
+
+#: wp-admin/js/site-health.js:341
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#: wp-admin/js/site-health.js:289 wp-admin/js/site-health.js:310
+msgid "No details available"
+msgstr "Aucun détail disponible"
+
+#: wp-admin/js/privacy-tools.js:83
+msgid "This user&#8217;s personal data export file was downloaded."
+msgstr "L’exportation des données personnelles de ce compte a été téléchargée."
+
+#: wp-admin/js/privacy-tools.js:80
+msgid "This user&#8217;s personal data export link was sent."
+msgstr "Le lien d’exportation des données personnelles de ce compte a été envoyé."
+
+#: wp-admin/js/dashboard.js:514
+msgid "Attend an upcoming event near you."
+msgstr "Assistez au prochain événement près de chez vous."
+
 #: wp-admin/authorize-application.php:323
 msgid "You will be returned to the WordPress Dashboard, and no changes will be made."
 msgstr "Vous serez redirigé vers le Tableau de bord de WordPress, et aucune modification ne sera faite."
@@ -3049,6 +3242,23 @@ msgstr "Notez que même lorsqu’il est paramétré pour décourager les moteurs
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen."
 msgstr "Vous pouvez choisir si votre site est parcouru par les robots et autres logiciels automatisés ou non. Si vous préférez que ces services ignorent votre site, cochez l’option « Demander aux moteurs de recherche de ne pas indexer ce site » et cliquez sur le bouton « Enregistrer les modifications » en bas de l’écran."
 
+#. translators: Used as part of a string like `GMT+5` in the Events Widget.
+#: wp-admin/js/dashboard.js:748
+msgctxt "Events widget offset prefix"
+msgid "GMT"
+msgstr "UTC"
+
+#. translators: 1: Deprecated property name, 2: Version number.
+#: wp-admin/js/common.js:45
+msgid "%1$s is deprecated since version %2$s with no alternative available."
+msgstr "%1$s est obsolète depuis la version %2$s, aucune alternative n’est disponible."
+
+#. translators: 1: Deprecated property name, 2: Version number, 3: Alternative
+#. property name.
+#: wp-admin/js/common.js:37
+msgid "%1$s is deprecated since version %2$s! Use %3$s instead."
+msgstr "%1$s est obsolète depuis la version %2$s ! Utilisez %3$s à la place."
+
 #. translators: 1: post_max_size, 2: upload_max_filesize
 #: wp-admin/includes/class-wp-site-health.php:2308
 msgid "The \"%1$s\" value is smaller than \"%2$s\""
@@ -3216,6 +3426,171 @@ msgstr "Désolé, vous n’avez pas l’autorisation d’activer les mises à jo
 msgid "This plugin is already installed."
 msgstr "Cette extension est déjà installée."
 
+#: wp-admin/js/tags-box.js:344
+msgid "Term added."
+msgstr "Terme ajouté."
+
+#: wp-admin/js/tags-box.js:340
+msgid "Term removed."
+msgstr "Terme retiré."
+
+#: wp-admin/js/tags-box.js:170
+msgid "Remove term:"
+msgstr "Retirer un terme :"
+
+#: wp-admin/js/inline-edit-post.js:535 wp-admin/js/inline-edit-post.js:536
+#: wp-admin/js/inline-edit-tax.js:241 wp-admin/js/inline-edit-tax.js:242
+msgid "Error while saving the changes."
+msgstr "Erreur lors de la sauvegarde des modifications."
+
+#: wp-admin/js/nav-menu.js:1751
+msgid ""
+"You are about to permanently delete this menu.\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Vous êtes sur le point de supprimer définitivement ce menu.\n"
+"Cliquez sur « Annuler » pour abandonner, « OK » pour le supprimer."
+
+#: wp-admin/js/postbox.js:562
+msgid "Drag boxes here"
+msgstr "Glissez les blocs ici"
+
+#: wp-admin/js/postbox.js:562
+msgid "Add boxes from the Screen Options menu"
+msgstr "Ajouter des blocs depuis le menu d’options de l’écran"
+
+#: wp-admin/js/postbox.js:510
+msgid "The boxes order has been saved."
+msgstr "L’ordre des boites a été enregistré."
+
+#: wp-admin/js/postbox.js:115
+msgid "The box is on the last position"
+msgstr "La boite est en dernière position"
+
+#: wp-admin/js/postbox.js:114
+msgid "The box is on the first position"
+msgstr "La boite est en première position"
+
+#. translators: %s: Error count.
+#: wp-admin/js/theme-plugin-editor.js:381
+msgid "There is %s error which must be fixed before you can update this file."
+msgid_plural "There are %s errors which must be fixed before you can update this file."
+msgstr[0] "Il y a %s erreur qui doit être corrigée avant que vous puissiez mettre à jour ce fichier."
+msgstr[1] "Il y a %s erreurs qui doivent être corrigées avant que vous puissiez mettre à jour ce fichier."
+
+#: wp-admin/js/plugin-install.js:165 wp-admin/js/plugin-install.js:179
+msgid "Plugin details"
+msgstr "Détails de l’extension"
+
+#. translators: %s: Plugin name.
+#: wp-admin/js/plugin-install.js:162
+msgid "Plugin: %s"
+msgstr "Extension : %s"
+
+#: wp-admin/js/user-profile.js:607
+msgid "Your new password has not been saved."
+msgstr "Votre nouveau mot de passe n’a pas été enregistré."
+
+#: wp-admin/js/privacy-tools.js:211
+msgid "An error occurred while attempting to find and erase personal data."
+msgstr "Une erreur s’est produite lors de la tentative de trouver et de retirer des données personnelles."
+
+#: wp-admin/js/privacy-tools.js:201
+msgid "Personal data was found for this user but some of the personal data found was not erased."
+msgstr "Des données personnelles ont été trouvées pour ce compte mais certaines données personnelles trouvées n’ont pas été supprimées."
+
+#: wp-admin/js/privacy-tools.js:199
+msgid "All of the personal data found for this user was erased."
+msgstr "Toutes les données personnelles trouvées pour ce compte ont été supprimées."
+
+#: wp-admin/js/privacy-tools.js:194
+msgid "Personal data was found for this user but was not erased."
+msgstr "Des données personnelles ont été trouvées pour ce compte mais n’ont pas été supprimées."
+
+#: wp-admin/js/privacy-tools.js:185 wp-admin/js/privacy-tools.js:192
+msgid "No personal data was found for this user."
+msgstr "Aucune donnée personnelle n’a été trouvée pour ce compte."
+
+#: wp-admin/js/privacy-tools.js:100
+msgid "An error occurred while attempting to export personal data."
+msgstr "Une erreur s’est produite lors de l‘exportation des données personnelles."
+
+#: wp-admin/js/privacy-tools.js:93
+msgid "No personal data export file was generated."
+msgstr "Aucun fichier d’exportation de données personnelles n’a été généré."
+
+#: wp-admin/js/tags-suggest.js:112
+msgid "Term selected."
+msgstr "Terme sélectionné."
+
+#: wp-admin/js/post.js:1047
+msgid "Permalink saved"
+msgstr "Permalien enregistré"
+
+#: wp-admin/js/post.js:782
+msgid "Published on:"
+msgstr "Publié le :"
+
+#: wp-admin/js/post.js:779
+msgid "Publish on:"
+msgstr "Publié le :"
+
+#: wp-admin/js/post.js:776
+msgid "Schedule for:"
+msgstr "Planifier pour :"
+
+#: wp-admin/js/post.js:466
+msgid "Saving Draft…"
+msgstr "Enregistrement du brouillon…"
+
+#: wp-admin/js/post.js:81
+msgid "No more comments found."
+msgstr "Aucun autre commentaire trouvé."
+
+#: wp-admin/js/post.js:77
+msgid "Show more comments"
+msgstr "Afficher plus de commentaires"
+
+#: wp-admin/js/updates.js:3421 wp-admin/js/updates.js:3485
+#: wp-admin/js/updates.js:3487
+msgid "The request could not be completed."
+msgstr "La demande n’a pas pu être effectuée."
+
+#: wp-admin/js/updates.js:3397
+msgid "Disabling..."
+msgstr "Désactivation…"
+
+#: wp-admin/js/updates.js:3395
+msgid "Enabling..."
+msgstr "Activation…"
+
+#. translators: %s: Number of plugins.
+#: wp-admin/js/updates.js:3067 wp-admin/js/updates.js:3163
+msgid "Number of plugins found: %d"
+msgstr "Nombre d’extensions trouvées : %d"
+
+#: wp-admin/js/updates.js:2847
+msgid "Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?"
+msgstr "Attention : ces thèmes peuvent être actifs sur d’autres sites du réseau. Souhaitez-vous poursuivre ?"
+
+#: wp-admin/js/updates.js:2846
+msgid "Are you sure you want to delete the selected plugins and their data?"
+msgstr "Confirmez-vous la suppression des extensions sélectionnées et de leurs données ?"
+
+#: wp-admin/js/common.js:1353
+msgid "Please select at least one item to perform this action on."
+msgstr "Veuillez sélectionner au moins un élément pour effectuer cette action."
+
+#. translators: %s: Plugin name.
+#: wp-admin/js/updates.js:2721
+msgid "Are you sure you want to delete %s and its data?"
+msgstr "Confirmez-vous vouloir supprimer %s et ses données ?"
+
+#: wp-admin/js/updates.js:2561 wp-admin/js/updates.js:2639
+#: wp-admin/js/updates.js:2695
+msgid "Update canceled."
+msgstr "Mise à jour annulée."
+
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
 #: wp-admin/includes/plugin-install.php:969 wp-admin/includes/update.php:566
@@ -3223,6 +3598,68 @@ msgstr "Cette extension est déjà installée."
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "Mettre à jour %s maintenant"
+
+#: wp-admin/js/updates.js:2427
+msgid "Updates may not complete if you navigate away from this page."
+msgstr "Les mises à jour peuvent ne pas se terminer si vous quittez cette page."
+
+#: wp-admin/js/updates.js:2349
+msgid "Connection lost or the server is busy. Please try again later."
+msgstr "Connexion perdue ou serveur occupé. Veuillez réessayer ultérieurement."
+
+#. translators: %s: Error string for a failed deletion.
+#: wp-admin/js/updates.js:2043 wp-admin/js/updates.js:2379
+msgid "Deletion failed: %s"
+msgstr "Échec de la suppression : %s"
+
+#: wp-admin/js/updates.js:2021
+msgctxt "theme"
+msgid "Deleted!"
+msgstr "Supprimé !"
+
+#. translators: %s: Theme name and version.
+#: wp-admin/js/updates.js:1887
+msgctxt "theme"
+msgid "%s installation failed"
+msgstr "L’installation de %s a échoué"
+
+#. translators: %s: Theme name.
+#: wp-admin/js/updates.js:1800
+msgctxt "theme"
+msgid "Network Activate %s"
+msgstr "Activation réseau de %s"
+
+#. translators: %s: Theme name and version.
+#: wp-admin/js/updates.js:1776
+msgctxt "theme"
+msgid "%s installed!"
+msgstr "%s a été installé !"
+
+#. translators: %s: Theme name and version.
+#: wp-admin/js/updates.js:1737
+msgctxt "theme"
+msgid "Installing %s..."
+msgstr "Installation de %s…"
+
+#: wp-admin/js/updates.js:1607
+msgctxt "theme"
+msgid "Updated!"
+msgstr "Mis à jour !"
+
+#: wp-admin/js/updates.js:1582
+msgid "Updating... please wait."
+msgstr "Mise à jour… veuillez patienter."
+
+#: wp-admin/js/updates.js:1473
+msgctxt "plugin"
+msgid "Deleted!"
+msgstr "Supprimé !"
+
+#: wp-admin/js/updates.js:1340 wp-admin/js/updates.js:1343
+#: wp-admin/js/updates.js:1346 wp-admin/js/updates.js:1924
+#: wp-admin/js/updates.js:1927 wp-admin/js/updates.js:1930
+msgid "Deleting..."
+msgstr "Suppression…"
 
 #. translators: %s: Importer name.
 #. translators: %s: Plugin name and version.
@@ -3234,11 +3671,165 @@ msgctxt "plugin"
 msgid "Install %s now"
 msgstr "Installer %s maintenant"
 
+#. translators: %s: Activation URL.
+#: wp-admin/js/updates.js:1245
+msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
+msgstr "L’outil d’importation a bien été installé. <a href=\"%s\">Lancer l’outil d’importation</a>"
+
+#. translators: %s: Plugin name and version.
+#: wp-admin/js/updates.js:866
+msgctxt "plugin"
+msgid "%s installation failed"
+msgstr "L’installation de %s a échoué"
+
+#. translators: %s: Error string for a failed installation.
+#: wp-admin/js/updates.js:881 wp-admin/js/updates.js:1282
+#: wp-admin/js/updates.js:1846 wp-admin/js/updates.js:2364
+msgid "Installation failed: %s"
+msgstr "Installation échouée : %s"
+
+#: wp-admin/js/updates.js:823 wp-admin/js/updates.js:1263
+#: wp-admin/js/updates.js:1782
+msgid "Installation completed successfully."
+msgstr "L’installation a bien été terminée."
+
+#: wp-admin/js/updates.js:810
+msgctxt "plugin"
+msgid "Installed!"
+msgstr "Installée !"
+
+#. translators: %s: Plugin name and version.
+#: wp-admin/js/updates.js:813
+msgctxt "plugin"
+msgid "%s installed!"
+msgstr "%s installée !"
+
+#: wp-admin/js/updates.js:776 wp-admin/js/updates.js:1743
+msgid "Installing... please wait."
+msgstr "Installation… veuillez patienter."
+
+#. translators: %s: Plugin name and version.
+#: wp-admin/js/updates.js:767
+msgctxt "plugin"
+msgid "Installing %s..."
+msgstr "Installation de %s…"
+
+#: wp-admin/js/updates.js:749 wp-admin/js/updates.js:761
+#: wp-admin/js/updates.js:1728 wp-admin/js/updates.js:1741
+msgid "Installing..."
+msgstr "Installation…"
+
+#. translators: %s: Plugin name and version.
+#: wp-admin/js/updates.js:663 wp-admin/js/updates.js:690
+msgctxt "plugin"
+msgid "%s update failed."
+msgstr "La mise à jour de %s a échoué."
+
+#. translators: %s: Error string for a failed update.
+#: wp-admin/js/updates.js:643 wp-admin/js/updates.js:1670
+#: wp-admin/js/updates.js:2359
+msgid "Update failed: %s"
+msgstr "La mise à jour a échoué : %s"
+
+#: wp-admin/js/updates.js:596 wp-admin/js/updates.js:1644
+msgid "Update completed successfully."
+msgstr "Mise à jour réussie."
+
+#: wp-admin/js/updates.js:563
+msgctxt "plugin"
+msgid "Updated!"
+msgstr "Mis à jour !"
+
+#. translators: %s: Plugin name and version.
+#: wp-admin/js/updates.js:566
+msgctxt "plugin"
+msgid "%s updated!"
+msgstr "%s est à jour !"
+
+#: wp-admin/js/updates.js:490 wp-admin/js/updates.js:521
+#: wp-admin/js/updates.js:1578 wp-admin/js/updates.js:1583
+msgid "Updating..."
+msgstr "Mise à jour…"
+
+#. translators: %s: Plugin name and version.
+#: wp-admin/js/updates.js:503 wp-admin/js/updates.js:511
+msgctxt "plugin"
+msgid "Updating %s..."
+msgstr "Mise à jour de %s…"
+
+#: wp-admin/js/widgets.js:706
+msgid "Widget has been added to the selected sidebar"
+msgstr "Le widget a été ajouté à la colonne latérale sélectionnée"
+
+#: wp-admin/js/color-picker.js:155
+msgid "Clear color"
+msgstr "Effacer la couleur"
+
+#: wp-admin/js/color-picker.js:150
+msgid "Select default color"
+msgstr "Sélectionner la couleur par défaut"
+
+#: wp-admin/js/color-picker.js:121
+msgid "Color value"
+msgstr "Valeur de couleur"
+
+#: wp-admin/js/image-edit.js:841
+msgid "Could not load the preview image."
+msgstr "Impossible de charger l’image de prévisualisation."
+
+#: wp-admin/js/image-edit.js:632
+msgid "Could not load the preview image. Please reload the page and try again."
+msgstr "Impossible de charger l’image de prévisualisation. Veuillez recharger la page et réessayer."
+
+#. translators: 1: Deprecated function name, 2: Version number, 3: Alternative
+#. function name.
+#: wp-admin/js/password-strength-meter.js:66
+msgid "%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code."
+msgstr "%1$s est obsolète depuis la version %2$s ! Utilisez %3$s à la place. Pensons à écrire du code plus inclusif."
+
+#: wp-admin/js/comment.js:87
+msgid "Submitted on:"
+msgstr "Envoyé le :"
+
+#: wp-admin/js/edit-comments.js:1245
+msgid ""
+"Are you sure you want to do this?\n"
+"The comment changes you made will be lost."
+msgstr ""
+"Voulez-vous vraiment faire cela ?\n"
+"Les modifications apportées au commentaire seront perdues."
+
+#: wp-admin/js/edit-comments.js:852
+msgid ""
+"Are you sure you want to edit this comment?\n"
+"The changes you made will be lost."
+msgstr ""
+"Confirmez-vous la modification de ce commentaire ?\n"
+"Les modifications que vous y avez apportées seront perdues."
+
+#: wp-admin/js/edit-comments.js:366 wp-admin/js/edit-comments.js:1013
+msgid "Approve and Reply"
+msgstr "Approuver et répondre"
+
+#: wp-admin/js/common.js:2117
+msgid "Expand Main menu"
+msgstr "Déplier le menu principal"
+
 #. translators: Hidden accessibility text.
 #: wp-admin/user-edit.php:1013 wp-admin/js/application-passwords.js:203
 #: wp-admin/js/common.js:1109
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
+
+#: wp-admin/js/common.js:548
+msgid ""
+"You are about to permanently delete these items from your site.\n"
+"This action cannot be undone.\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Vous êtes en train de supprimer définitivement ces éléments de votre site.\n"
+"Cette action ne peut pas être annulée.\n"
+"« Annuler » pour arrêter, « OK » pour supprimer."
 
 #. translators: %s: Theme name.
 #: wp-admin/theme-install.php:430 wp-admin/themes.php:641
@@ -3985,6 +4576,14 @@ msgstr "La mise à jour ne peut pas être installée car WordPress %1$s nécessi
 #: wp-admin/privacy.php:62
 msgid "https://wordpress.org/about/stats/"
 msgstr "https://fr.wordpress.org/about/stats/"
+
+#: wp-admin/js/site-health.js:230
+msgid "Should be improved"
+msgstr "Peut être amélioré"
+
+#: wp-admin/js/site-health.js:225
+msgid "Good"
+msgstr "Bien"
 
 #: wp-admin/export.php:59
 msgid "<a href=\"https://wordpress.org/documentation/article/tools-export-screen/\">Documentation on Export</a>"
@@ -5191,6 +5790,10 @@ msgstr "Vérifier les mises à jour manuellement"
 #: wp-admin/includes/class-wp-site-health.php:281
 msgid "Unable to check if any new versions of WordPress are available."
 msgstr "Nous n’avons pas pu vérifier si de nouvelles versions de WordPress sont disponibles."
+
+#: wp-admin/js/site-health.js:40
+msgid "Site information has been copied to your clipboard."
+msgstr "Les informations du site ont été copiées dans le presse-papier."
 
 #. translators: %s: Name of the filter used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:472
@@ -7157,6 +7760,10 @@ msgstr "Activer"
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts"
 msgstr "Autoriser les notifications de lien en provenance d’autres blogs (pings et rétroliens) sur les nouvelles publications"
 
+#: wp-admin/js/common.js:2120
+msgid "Collapse Main menu"
+msgstr "Replier le menu principal"
+
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:852
 #: wp-admin/includes/plugin-install.php:1006 wp-admin/js/updates.js:972
@@ -7239,9 +7846,29 @@ msgstr "WordCamps"
 msgid "Meetups"
 msgstr "Meetups"
 
+#. translators: %s: The name of a city.
+#: wp-admin/js/dashboard.js:544
+msgid "City updated. Listing events near %s."
+msgstr "Ville mise à jour. Affichage des évènements près de %s."
+
+#. translators: %s is the name of the city we couldn't locate. Replace the
+#. examples with cities related to your locale. Test that they match the
+#. expected location and have upcoming events before including them. If no
+#. cities related to your locale have events, then use cities related to your
+#. locale that would be recognizable to most users. Use only the city name
+#. itself, without any region or country. Use the endonym (native locale name)
+#. instead of the English name if possible.
+#: wp-admin/js/dashboard.js:576
+msgid "We couldn’t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland."
+msgstr "Nous ne localisons pas %s. Veuillez essayer une autre ville proche. Par exemple : Lille, Bordeaux ou Grenoble."
+
 #: wp-admin/includes/dashboard.php:1358 wp-admin/js/dashboard.js:591
 msgid "An error occurred. Please try again."
 msgstr "Une erreur s’est produite. Veuillez réessayer."
+
+#: wp-admin/js/dashboard.js:596
+msgid "Enter your closest city to find nearby events."
+msgstr "Saisissez une ville proche de chez vous pour trouver un évènement."
 
 #: wp-admin/includes/dashboard.php:92
 msgid "WordPress Events and News"
@@ -7364,6 +7991,13 @@ msgstr "Défilement"
 msgctxt "Background Repeat"
 msgid "Repeat"
 msgstr "Répétition"
+
+#. translators: %s: Number of failed updates.
+#: wp-admin/js/updates.js:2941
+msgid "%s update failed."
+msgid_plural "%s updates failed."
+msgstr[0] "%s mise à jour a échoué."
+msgstr[1] ""
 
 #: wp-admin/plugin-install.php:103
 msgid "You can find new plugins to install by searching or browsing the directory right here in your own Plugins section."
@@ -7541,6 +8175,20 @@ msgctxt "theme"
 msgid "%s was successfully deleted."
 msgstr "%s a bien été supprimé."
 
+#. translators: %s: Number of themes.
+#: wp-admin/js/updates.js:2930
+msgid "%s theme successfully updated."
+msgid_plural "%s themes successfully updated."
+msgstr[0] "%s thème mis à jour."
+msgstr[1] ""
+
+#. translators: %s: Number of plugins.
+#: wp-admin/js/updates.js:2924
+msgid "%s plugin successfully updated."
+msgid_plural "%s plugins successfully updated."
+msgstr[0] "%s extension mise à jour."
+msgstr[1] ""
+
 #. translators: 1: URL to WordPress release notes, 2: New WordPress version.
 #: wp-admin/includes/update.php:337
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! Please notify the site administrator."
@@ -7684,6 +8332,10 @@ msgstr "Le thème ne peut pas être supprimé."
 #: wp-admin/includes/ajax-actions.php:4398
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer les thèmes de ce site."
+
+#: wp-admin/js/updates.js:671 wp-admin/js/updates.js:2403
+msgid "Update failed."
+msgstr "Échec de mise à jour."
 
 #: wp-admin/includes/ajax-actions.php:4178 wp-admin/theme-install.php:16
 #: wp-admin/update.php:262 wp-admin/update.php:304 wp-admin/update.php:342
@@ -10907,6 +11559,11 @@ msgstr "Réduire"
 msgid "If you do not want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
 msgstr "Si vous ne souhaitez pas que votre site utilise une image d’entête, cliquez sur le bouton « Retirer l’image d’entête » en bas de la section « Image d’entête » de cette page. Si vous souhaitez réactiver l’image d’entête, il vous suffit de sélectionner l’une des autres options d’images, et de la valider en cliquant sur « Enregistrer les modifications »."
 
+#: wp-admin/js/updates.js:1780
+msgctxt "theme"
+msgid "Installed!"
+msgstr "Installé !"
+
 #: wp-admin/includes/plugin-install.php:1028
 msgctxt "plugin"
 msgid "Installed"
@@ -11048,6 +11705,10 @@ msgstr "Mis en ligne en privé"
 msgid "Save as Pending"
 msgstr "Mettre en attente"
 
+#: wp-admin/js/set-post-thumbnail.js:16
+msgid "Use as featured image"
+msgstr "Utiliser comme image mise en avant"
+
 #: wp-admin/includes/media.php:1418 wp-admin/includes/media.php:3010
 msgid "Enter a link URL or click above for presets."
 msgstr "Saisissez une adresse de lien ou cliquez ci-dessus pour les liens prédéfinis."
@@ -11093,6 +11754,12 @@ msgstr "Modifier le commentaire"
 #: wp-admin/options-general.php:502 wp-admin/options-general.php:547
 msgid "Preview:"
 msgstr "Aperçu :"
+
+#. translators: %s: Plugin name.
+#. translators: %s: Theme name.
+#: wp-admin/js/updates.js:2727 wp-admin/js/updates.js:2784
+msgid "Are you sure you want to delete %s?"
+msgstr "Confirmez-vous la suppression de %s ?"
 
 #: wp-admin/includes/class-wp-users-list-table.php:397
 #: wp-admin/includes/class-wp-ms-users-list-table.php:217
@@ -13349,6 +14016,10 @@ msgstr "Feuille de style de l’éditeur visuel"
 msgid "Page saved."
 msgstr "Page enregistrée."
 
+#: wp-admin/js/updates.js:710
+msgid "Update Now"
+msgstr "Mettre à jour"
+
 #. translators: %s: Importer name.
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
@@ -13496,6 +14167,10 @@ msgstr "Cette mise à jour ne peut être installée, car <a href=\"%1$s\">WordPr
 #: wp-admin/update-core.php:987 wp-admin/update-core.php:1067
 msgid "WordPress Updates"
 msgstr "Mises à jour de WordPress"
+
+#: wp-admin/js/color-picker.js:139
+msgid "Select Color"
+msgstr "Sélectionner une couleur"
 
 #: wp-admin/includes/class-walker-nav-menu-edit.php:185
 msgid "Edit menu item"
@@ -13956,6 +14631,10 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier cet élément."
 #: wp-admin/term.php:31
 msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
 msgstr "Vous tentez de modifier un contenu qui n’existe pas. Peut-être a-t-il été supprimé ?"
+
+#: wp-admin/js/updates.js:3062
+msgid "You do not appear to have any plugins available at this time."
+msgstr "Vous ne semblez pas avoir d&rsquo;extension disponible en ce moment."
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:427
 msgid "No plugins found."
@@ -15218,6 +15897,10 @@ msgstr "Publier <b>tout de suite</b>"
 msgid "Stick this post to the front page"
 msgstr "Épingler cet article sur la page d’accueil"
 
+#: wp-admin/js/post.js:894
+msgid "Password Protected"
+msgstr "Protégé par mot de passe"
+
 #: wp-admin/edit-form-comment.php:113 wp-admin/export.php:237
 #: wp-admin/export.php:289 wp-admin/includes/meta-boxes.php:104
 msgid "Status:"
@@ -16128,6 +16811,10 @@ msgstr "Envoyer des rétroliens"
 #: wp-admin/edit-form-advanced.php:195
 msgid "Page restored to revision from %s."
 msgstr "Page rétablie à partir de la révision du %s."
+
+#: wp-admin/js/image-edit.js:626
+msgid "Image updated."
+msgstr "Image mise à jour."
 
 #: wp-admin/edit-form-advanced.php:182
 msgid "Post saved."
