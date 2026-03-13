@@ -233,59 +233,12 @@ function ppc_producteur_filters_front_assets() {
 		return;
 	}
 
-	wp_enqueue_script( 'jquery' );
-
-	$script = <<<JS
-document.addEventListener('DOMContentLoaded', function() {
-  var filters = document.getElementById('producteur-filters');
-  if (!filters) return;
-
-  var checkboxes = Array.prototype.slice.call(document.querySelectorAll('.producteur-checkbox'));
-  var sections = Array.prototype.slice.call(document.querySelectorAll('.producteur-section'));
-  var countEl = document.getElementById('products-count');
-  var selectAll = document.getElementById('select-all');
-  var deselectAll = document.getElementById('deselect-all');
-
-  function update() {
-    var active = new Set(checkboxes.filter(function(cb){ return cb.checked; }).map(function(cb){ return cb.value; }));
-    sections.forEach(function(section){
-      var id = section.getAttribute('data-producteur-id');
-      var show = active.has(id);
-      section.style.display = show ? '' : 'none';
-    });
-
-    if (countEl) {
-      var count = 0;
-      sections.forEach(function(section){
-        if (section.style.display === 'none') return;
-        count += section.querySelectorAll('.product').length;
-      });
-      countEl.textContent = count + ' produits affichés';
-    }
-  }
-
-  checkboxes.forEach(function(cb){
-    cb.addEventListener('change', update);
-  });
-
-  if (selectAll) {
-    selectAll.addEventListener('click', function(){
-      checkboxes.forEach(function(cb){ cb.checked = true; });
-      update();
-    });
-  }
-
-  if (deselectAll) {
-    deselectAll.addEventListener('click', function(){
-      checkboxes.forEach(function(cb){ cb.checked = false; });
-      update();
-    });
-  }
-
-  update();
-});
-JS;
-
-	wp_add_inline_script( 'jquery', $script );
+	wp_enqueue_script(
+		'filters-producteurs',
+		get_stylesheet_directory_uri() . '/assets/js/filters-producteurs.js',
+		array(),
+		'1.0.0',
+		true
+	);
 }
 add_action( 'wp_enqueue_scripts', 'ppc_producteur_filters_front_assets', 30 );
